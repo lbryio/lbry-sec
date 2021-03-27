@@ -2,6 +2,8 @@ $breakpoint-small: 900px;
 $spacing-small: 1rem;
 $spacing-medium: 1.8rem;
 
+$border-radius: 10px;
+
 html,
 body {
   padding: 0;
@@ -29,8 +31,13 @@ iframe {
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.5rem;
+  font-size: 24px;
+  line-height: 2rem;
+}
+
+input,
+button {
+  border: none;
 }
 
 a {
@@ -99,6 +106,7 @@ header {
 
 .landing__title {
   font-size: 3rem;
+  font-weight: 900;
 
   @media (min-width: $breakpoint-small) {
     font-size: 3rem;
@@ -118,12 +126,17 @@ header {
 .landing__subtitle-catchy {
   margin-top: 1.5rem;
   font-weight: bolder;
+  transform: skew(-10deg);
+  display: inline-block;
 
-  i {
-    background-color: #5726ab;
-    color: white;
-    padding: 0.5rem;
-    margin-top: 2rem;
+  background-color: #5726ab;
+  color: white;
+  padding: 0.75rem;
+  margin-top: 2rem;
+
+  span {
+    font-weight: 700;
+    transform: skew(10deg);
   }
 }
 
@@ -132,17 +145,38 @@ header {
   background-color: #ffffff;
   color: #000000;
 
+  h2 {
+    font-size: 2rem;
+    font-weight: 900;
+
+    &:not(:first-of-type) {
+      margin-top: 4rem;
+    }
+  }
+
   @media (min-width: $breakpoint-small) {
     padding-top: 5rem;
     width: 900px;
     margin: auto;
+
+    h2 {
+      font-size: 4rem;
+    }
   }
 }
 
+.content__subtitle {
+  margin: 1rem 0;
+  font-size: 1.75rem;
+  color: #8f8f8f;
+}
+
 .video {
-  margin-top: 5rem;
+  margin-top: 2.5rem;
   position: relative;
-  padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
+  padding-bottom: 56.25%;
+  background-color: black;
+  border-radius: 20px;
 
   iframe {
     position: absolute;
@@ -150,5 +184,89 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
+    border-radius: 20px;
   }
+}
+
+.email {
+  width: 100%;
+  max-width: 35rem;
+  margin: auto;
+  font-size: 2rem;
+  margin-top: 4rem;
+  padding: 1rem;
+  background-color: #fcd34d;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  @media (min-width: $breakpoint-small) {
+    padding: 5rem;
+
+    h2 {
+      font-size: 3rem;
+    }
+  }
+}
+
+.email__group {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+
+  input {
+    flex: 1;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    border-top-left-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+
+    &:focus {
+      outline: none;
+    }
+
+    @media (min-width: $breakpoint-small) {
+      font-size: 1rem;
+    }
+  }
+
+  button {
+    border-top-right-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+  }
+
+  input,
+  button {
+    padding: 1rem;
+    height: 3rem;
+  }
+}
+
+.email__subtitle {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+
+  @media (min-width: $breakpoint-small) {
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+}
+
+.petition {
+  height: 30rem;
+  padding: 5rem;
+  background-color: black;
+  color: white;
+  margin-top: 2rem;
 }

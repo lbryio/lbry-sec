@@ -34,13 +34,16 @@ export default function Home() {
           <div className="landing__subtitle">
             <div>Some catchy subtitle that says some different things.</div>
             <div className="landing__subtitle-catchy">
-              <i>The SEC are dorks.</i>
+              <span>The SEC are dorks.</span>
             </div>
           </div>
         </div>
 
         <div className="content">
           <h2>What is happening?</h2>
+          <div className="content__subtitle">
+            Some subtitle about below text.
+          </div>
           <p>
             The Securities and Exchange Commission has filed a case against
             LBRY, Inc. alleging that all distributions of LBRY Credits by LBRY,
@@ -56,8 +59,37 @@ export default function Home() {
           </p>
 
           <div className="video">
-            <iframe src="https://drive.google.com/file/d/1G3atQZ8ZQWor0RPMoVyxEZMhMxZKD8Qa/preview"></iframe>
+            <iframe
+              id="lbry-iframe"
+              src="https://odysee.com/$/embed/odysee/7a416c44a6888d94fe045241bbac055c726332aa?r=A6zE8KtZ6VVk268xANdFViL8znbDXL4F"
+              allowfullscreen
+            ></iframe>
           </div>
+
+          <div className="email">
+            <h2>Stay up to date</h2>
+            <div className="email__subtitle">
+              We will keep you up to date with any information we receive about
+              this case.
+            </div>
+
+            <label htmlFor="email">Email</label>
+            <div className="email__group">
+              <input
+                type="email"
+                name="email"
+                placeholder="ihatecensorship@protonmail.com"
+              />
+              <button>Submit</button>
+            </div>
+          </div>
+
+          <h2>Sign the petition</h2>
+          <div className="content__subtitle">
+            We know petitions don't do very much, but everything helps.
+          </div>
+
+          <div className="petition">Petition iframe or link</div>
         </div>
       </main>
     </div>
