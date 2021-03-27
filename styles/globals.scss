@@ -1,0 +1,131 @@
+$breakpoint-small: 900px;
+$spacing-small: 1rem;
+$spacing-medium: 1.8rem;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+iframe {
+  border: none;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  height: 8vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+
+  a:not(:last-of-type) {
+    margin-right: $spacing-small;
+  }
+
+  @media (min-width: $breakpoint-small) {
+    padding: 0 1rem;
+  }
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 1.5rem;
+
+  @media (min-width: $breakpoint-small) {
+    font-size: 2rem;
+  }
+}
+
+.landing__img {
+  position: relative;
+  height: 10rem;
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+
+  @media (min-width: $breakpoint-small) {
+    height: 80vh;
+  }
+}
+
+.landing__text {
+  margin-top: -2rem;
+  margin-left: $spacing-small;
+  margin-right: $spacing-small;
+
+  background-color: white;
+  padding: $spacing-small;
+
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  @media (min-width: $breakpoint-small) {
+    position: absolute;
+    margin: 0 10rem;
+    top: 25vh;
+    width: 40rem;
+    padding: $spacing-medium;
+  }
+}
+
+.landing__title {
+  @media (min-width: $breakpoint-small) {
+    font-size: 3rem;
+  }
+}
+
+.landing__subtitle {
+  @media (min-width: $breakpoint-small) {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+.content {
+  padding: $spacing-small;
+
+  @media (min-width: $breakpoint-small) {
+    padding-top: 5rem;
+    width: 900px;
+    margin: auto;
+  }
+}
+
+.video {
+  margin-top: 5rem;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
