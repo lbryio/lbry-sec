@@ -1,6 +1,49 @@
+import React from 'react';
 import Head from 'next/head';
 
 export default function Home() {
+  const [email, setEmail] = React.useState('');
+  const [emailLoading, setEmailLoading] = React.useState(false);
+  const [emailError, setEmailError] = React.useState();
+  const [emailSuccess, setEmailSuccess] = React.useState();
+
+  function handleEmailSubmit(e) {
+    e.preventDefault();
+
+    if (!email) {
+      return;
+    }
+
+    setEmailError(false);
+    setEmailSuccess(false);
+    setEmailLoading(true);
+
+    fetch('/api/email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email,
+      }),
+    })
+      .then((res) => {
+        if (res.status >= 200 && res.status < 300) {
+          return res.json();
+        } else {
+          throw Error(res.error);
+        }
+      })
+      .then((data) => {
+        setEmailLoading(false);
+        setEmailSuccess(true);
+      })
+      .catch(() => {
+        setEmailLoading(false);
+        setEmailSuccess(false);
+        setEmailError(true);
+      });
+  }
   return (
     <div>
       <Head>
@@ -27,15 +70,19 @@ export default function Home() {
 
         <div className="landing__text">
           <h1 className="landing__title">
-            Save LBRY
+            HELP LBRY
             <br />
-            Save Crypto
+            SAVE CRYPTO
           </h1>
           <div className="landing__subtitle">
-            <div>Some catchy subtitle that says some different things.</div>
-            <div className="landing__subtitle-catchy">
-              <span>The SEC are dorks.</span>
+            <div>
+              The SEC don’t understand blockchain or crypto.
+              <br />
+              They’re saying LBC is a security, it’s not!
             </div>
+            <button className="landing__action">
+              <span>Educate the SEC</span>
+            </button>
           </div>
         </div>
 
@@ -74,14 +121,29 @@ export default function Home() {
             </div>
 
             <label htmlFor="email">Email</label>
-            <div className="email__group">
+            <form className="email__group" onSubmit={handleEmailSubmit}>
               <input
                 type="email"
                 name="email"
                 placeholder="ihatecensorship@protonmail.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
-              <button>Submit</button>
-            </div>
+              <button disabled={!email || emailLoading}>
+                {emailLoading ? 'Submitting' : 'Submit'}
+              </button>
+            </form>
+
+            {emailSuccess && (
+              <div className="email__success">
+                Thank you! We will keep you in the loop.
+              </div>
+            )}
+            {emailError && (
+              <div className="email__success">
+                Sorry, there was an error. Please try again.
+              </div>
+            )}
           </div>
 
           <h2>Sign the petition</h2>
@@ -90,6 +152,8 @@ export default function Home() {
           </div>
 
           <div className="petition">Petition iframe or link</div>
+
+          <h2>See what people are saying</h2>
         </div>
       </main>
     </div>

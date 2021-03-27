@@ -6,6 +6,7 @@ $border-radius: 10px;
 
 html,
 body {
+  font-size: 16px;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -119,24 +120,26 @@ header {
   font-weight: 300;
 
   @media (min-width: $breakpoint-small) {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
-.landing__subtitle-catchy {
+.landing__action {
   margin-top: 1.5rem;
   font-weight: bolder;
-  transform: skew(-10deg);
   display: inline-block;
 
   background-color: #5726ab;
   color: white;
   padding: 0.75rem;
   margin-top: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 10px;
 
-  span {
-    font-weight: 700;
-    transform: skew(10deg);
+  &:hover {
+    opacity: 0.9;
   }
 }
 
@@ -203,6 +206,7 @@ header {
 
   label {
     font-size: 1rem;
+    font-weight: 700;
   }
 
   @media (min-width: $breakpoint-small) {
@@ -261,6 +265,13 @@ header {
     font-size: 2rem;
     margin: 2rem 0;
   }
+}
+
+.email__success,
+.email__error {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: -0.5rem;
 }
 
 .petition {
