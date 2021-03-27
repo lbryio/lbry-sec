@@ -41,10 +41,11 @@ a {
 header {
   height: 8vh;
   background-color: white;
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0.5rem;
+  padding: 0 0.75rem;
 
   a:not(:last-of-type) {
     margin-right: $spacing-small;
@@ -65,49 +66,71 @@ header {
 }
 
 .landing__img {
+  z-index: -1;
   position: relative;
   height: 10rem;
-  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background-color: #111111;
+  color: #ffffff;
+  //   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
 
   @media (min-width: $breakpoint-small) {
-    height: 80vh;
+    height: 70vh;
   }
 }
 
 .landing__text {
-  margin-top: -2rem;
+  margin-top: -6rem;
+  margin-bottom: 3rem;
   margin-left: $spacing-small;
   margin-right: $spacing-small;
-
-  background-color: white;
+  background-color: #fcd34d;
+  color: black;
   padding: $spacing-small;
-
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  padding-bottom: 2rem;
 
   @media (min-width: $breakpoint-small) {
     position: absolute;
     margin: 0 10rem;
-    top: 25vh;
+    top: 20vh;
     width: 40rem;
     padding: $spacing-medium;
   }
 }
 
 .landing__title {
+  font-size: 3rem;
+
   @media (min-width: $breakpoint-small) {
     font-size: 3rem;
   }
 }
 
 .landing__subtitle {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+
   @media (min-width: $breakpoint-small) {
     font-size: 2rem;
-    line-height: 3rem;
+  }
+}
+
+.landing__subtitle-catchy {
+  margin-top: 1.5rem;
+  font-weight: bolder;
+
+  i {
+    background-color: #5726ab;
+    color: white;
+    padding: 0.5rem;
+    margin-top: 2rem;
   }
 }
 
 .content {
   padding: $spacing-small;
+  background-color: #ffffff;
+  color: #000000;
 
   @media (min-width: $breakpoint-small) {
     padding-top: 5rem;

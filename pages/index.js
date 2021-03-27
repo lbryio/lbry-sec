@@ -12,8 +12,13 @@ export default function Home() {
         <span className="title">TBD TITLE</span>
 
         <div className="header__links">
-          <a>LINK 1</a>
-          <a>LINK 2</a>
+          <a
+            href="https://docs.google.com/document/d/1QYSruKLjStWZOTTmkatfUZaCdp4lHWwk6TmUvytzTx0/edit#"
+            rel="noopener"
+            target="_blannk"
+          >
+            VIEW FAQ
+          </a>
         </div>
       </header>
 
@@ -26,9 +31,12 @@ export default function Home() {
             <br />
             Save Crypto
           </h1>
-          <p className="landing__subtitle">
-            Some catch subtitle. The SEC are dorks.
-          </p>
+          <div className="landing__subtitle">
+            <div>Some catchy subtitle that says some different things.</div>
+            <div className="landing__subtitle-catchy">
+              <i>The SEC are dorks.</i>
+            </div>
+          </div>
         </div>
 
         <div className="content">
