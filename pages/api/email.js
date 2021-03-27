@@ -23,7 +23,7 @@ export default (req, res) => {
 
   if (!email) {
     res.statusCode = 400;
-    res.json({ error: true });
+    res.json({ error: 'no email passed to api' });
     return;
   }
 
@@ -48,6 +48,6 @@ export default (req, res) => {
       }
 
       res.statusCode = 400;
-      res.json({ error });
+      res.json({ error: JSON.stringify(error) });
     });
 };
