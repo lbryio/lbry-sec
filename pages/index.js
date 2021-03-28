@@ -47,7 +47,7 @@ export default function Home() {
       </Head>
 
       <header>
-        <span className="title">TBD TITLE</span>
+        <span className="title">LBRY, THE SEC, & THE FUTURE OF CRYPTO</span>
 
         <div className="header__links">
           <a
