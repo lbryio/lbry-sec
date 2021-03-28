@@ -77,6 +77,12 @@ main {
   }
 }
 
+.link {
+  color: #31afa1;
+  font-weight: 900;
+  border-bottom: 1px solid #31afa1;
+}
+
 .landing__img-container {
   position: relative;
   z-index: -1;
@@ -299,12 +305,6 @@ main {
 .email__error {
   font-size: 1rem;
   margin-top: 0.5rem;
-}
-
-.petition__link {
-  color: red;
-  font-weight: 900;
-  border-bottom: 1px solid red;
 }
 
 .twitter {

@@ -75,6 +75,7 @@ export default function Home() {
 
         <div className="header__links">
           <a
+            className="link"
             href="https://docs.google.com/document/d/1QYSruKLjStWZOTTmkatfUZaCdp4lHWwk6TmUvytzTx0/edit#"
             rel="noreferrer noopener"
             target="_blannk"
@@ -180,7 +181,7 @@ export default function Home() {
             Tweet with the hashtag to let the SEC know how you feel.
             <a
               href="https://twitter.com/intent/tweet?text=Down%20with%20the%20SEC!%20%23BattleForCrypto"
-              className="petition__link"
+              className="link"
               rel="noreferrer noopener"
               target="_blannk"
             >
@@ -194,7 +195,7 @@ export default function Home() {
           <h2>Sign the petition</h2>
           <div className="content__subtitle">
             Who knows, maybe a petition will work.{' '}
-            <a className="petition__link">Add your signature</a>.
+            <a className="link">Add your signature</a>.
           </div>
 
           <h2>Share this story</h2>
