@@ -79,7 +79,6 @@ header {
   height: 10rem;
   background-color: #111111;
   color: #ffffff;
-  //   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
 
   @media (min-width: $breakpoint-small) {
     height: 70vh;
@@ -120,11 +119,11 @@ header {
   font-weight: 300;
 
   @media (min-width: $breakpoint-small) {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 
-.landing__action {
+.landing__standout {
   margin-top: 1.5rem;
   font-weight: bolder;
   display: inline-block;
@@ -134,12 +133,17 @@ header {
   padding: 0.75rem;
   margin-top: 2rem;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding: 1.5rem;
-  border-radius: 10px;
 
-  &:hover {
-    opacity: 0.9;
+  transform: skew(-10deg);
+
+  span {
+    transform: skew(10deg);
+  }
+
+  @media (min-width: $breakpoint-small) {
+    font-size: 1.5rem;
   }
 }
 
@@ -162,6 +166,10 @@ header {
     width: 900px;
     margin: auto;
 
+    &:not(:first-of-type) {
+      padding-top: 2rem;
+    }
+
     h2 {
       font-size: 4rem;
     }
@@ -169,9 +177,15 @@ header {
 }
 
 .content__subtitle {
-  margin: 1rem 0;
-  font-size: 1.75rem;
-  color: #8f8f8f;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #797979;
+
+  @media (min-width: $breakpoint-small) {
+    font-size: 1.5rem;
+  }
 }
 
 .video {
@@ -271,13 +285,108 @@ header {
 .email__error {
   font-size: 1rem;
   margin-top: 0.5rem;
-  margin-bottom: -0.5rem;
 }
 
-.petition {
-  height: 30rem;
-  padding: 5rem;
-  background-color: black;
-  color: white;
-  margin-top: 2rem;
+.petition__link {
+  color: red;
+  font-weight: 900;
+  border-bottom: 1px solid red;
+}
+
+.twitter {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.twitter__error-link {
+  color: red;
+  font-weight: 900;
+  border-bottom: 1px solid red;
+}
+
+.tweets {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 100px;
+  animation: slide 240s linear;
+  animation-fill-mode: forwards;
+}
+
+.tweets--static {
+  animation: none;
+
+  @media (min-width: $breakpoint-small) {
+    margin-left: -50px;
+  }
+
+  @media (max-width: $breakpoint-small) {
+    :not(:first-child) {
+      display: none;
+    }
+  }
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 100px;
+  }
+
+  100% {
+    margin-left: -5000px;
+  }
+}
+
+.tweet {
+  width: 50rem;
+  display: flex;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  font-size: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-right: 2rem;
+}
+
+.tweet--placeholder {
+  @extend .tweet;
+  height: 15rem;
+  width: 80vw;
+  background-color: #eeeeee;
+  border-radius: 10px;
+
+  @media (min-width: $breakpoint-small) {
+    width: 50rem;
+  }
+}
+
+.tweet__content {
+  min-width: 15rem;
+  margin-left: 1rem;
+}
+
+.tweet__author {
+  display: flex;
+}
+
+.tweet__username {
+  font-weight: bold;
+}
+
+.tweet__handle {
+  color: #888;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+}
+
+.tweet_img {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.tweet__text {
+  margin-top: 1rem;
+  font-size: 1rem;
 }

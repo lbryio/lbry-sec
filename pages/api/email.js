@@ -1,6 +1,3 @@
-import { resolveHref } from 'next/dist/next-server/lib/router/router';
-import { renderSync } from 'sass';
-
 const API = 'https://api.lbry.com/';
 const USER_TAG = 'lbry-sec';
 

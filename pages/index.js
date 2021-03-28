@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import { Twitter } from '../component/twitter';
 
 export default function Home() {
   const [email, setEmail] = React.useState('');
@@ -41,7 +42,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>TBD</title>
+        <title>LBRY, THE SEC, & THE FUTURE OF CRYPTO</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -51,7 +52,7 @@ export default function Home() {
         <div className="header__links">
           <a
             href="https://docs.google.com/document/d/1QYSruKLjStWZOTTmkatfUZaCdp4lHWwk6TmUvytzTx0/edit#"
-            rel="noopener"
+            rel="noreferrer noopener"
             target="_blannk"
           >
             VIEW FAQ
@@ -70,20 +71,21 @@ export default function Home() {
           </h1>
           <div className="landing__subtitle">
             <div>
-              The SEC don’t understand blockchain or crypto.
+              The SEC doesn’t understand blockchain or crypto.
               <br />
               They’re saying LBC is a security, it’s not!
             </div>
-            <button className="landing__action">
-              <span>Educate the SEC</span>
-            </button>
+            <div className="landing__standout">
+              <span>Help us educate the SEC</span>
+            </div>
           </div>
         </div>
 
         <div className="content">
           <h2>What is happening?</h2>
           <div className="content__subtitle">
-            Some subtitle about below text.
+            The SEC is bringing a case against LBRY, Inc, which could harm the
+            entire cryptocurrency space.
           </div>
           <p>
             The Securities and Exchange Commission has filed a case against
@@ -103,8 +105,8 @@ export default function Home() {
             <iframe
               id="lbry-iframe"
               src="https://odysee.com/$/embed/odysee/7a416c44a6888d94fe045241bbac055c726332aa?r=A6zE8KtZ6VVk268xANdFViL8znbDXL4F"
-              allowfullscreen
-            ></iframe>
+              allowFullScreen
+            />
           </div>
 
           <div className="email">
@@ -140,14 +142,19 @@ export default function Home() {
             )}
           </div>
 
+          <h2>What are people saying?</h2>
+        </div>
+        <Twitter />
+
+        <div className="content">
           <h2>Sign the petition</h2>
           <div className="content__subtitle">
-            We know petitions don't do very much, but everything helps.
+            Who knows, maybe a petition will work.{' '}
+            <a className="petition__link">Add your signature</a>.
           </div>
 
-          <div className="petition">Petition iframe or link</div>
-
-          <h2>See what people are saying</h2>
+          <h2>Donate</h2>
+          <div className="content__subtitle">Money please</div>
         </div>
       </main>
     </div>
