@@ -9,7 +9,7 @@ export default function Home() {
   const [emailLoading, setEmailLoading] = React.useState(false);
   const [emailError, setEmailError] = React.useState();
   const [emailSuccess, setEmailSuccess] = React.useState();
-  const lang = 'es'; // req.query.lang || 'en'
+  const lang = 'en'; // req.query.lang || 'en'
 
   function __(message) {
     return t(message, lang);
@@ -68,7 +68,7 @@ export default function Home() {
             rel="noreferrer noopener"
             target="_blannk"
           >
-            VIEW FAQ
+            {__(m.faq)}
           </a>
         </div>
       </header>
@@ -78,7 +78,7 @@ export default function Home() {
 
         <div className="landing__text">
           <h1 className="landing__title">
-            HELP LBRY
+            {__(m.help_lbry)}
             <br />
             SAVE CRYPTO
           </h1>
@@ -164,7 +164,7 @@ export default function Home() {
 
           <h2>What are people saying?</h2>
           <div className="content__subtitle">
-            Tweet with the hashtag{' '}
+            Tweet with the hashtag to let the SEC know how you feel.
             <a
               href="https://twitter.com/intent/tweet?text=Down%20with%20the%20SEC!%20%23BattleForCrypto"
               className="petition__link"
@@ -172,8 +172,7 @@ export default function Home() {
               target="_blannk"
             >
               #BattleForCrypto
-            </a>{' '}
-            to let the SEC know how you feel.
+            </a>
           </div>
         </div>
         <Twitter />
@@ -185,9 +184,8 @@ export default function Home() {
             <a className="petition__link">Add your signature</a>.
           </div>
 
-          <h2>Donate</h2>
-          <div className="content__subtitle">Money please</div>
-          <Stripe />
+          <h2>Share this story</h2>
+          <div className="content__subtitle">Everything helps</div>
         </div>
       </main>
     </div>
