@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { Twitter } from '../component/twitter';
 import { Stripe } from '../component/stripe';
 import { t, m } from '../i18n';
+import { tracker } from '../analytics';
 
 export default function Home() {
   const [email, setEmail] = React.useState('');
@@ -10,6 +11,10 @@ export default function Home() {
   const [emailError, setEmailError] = React.useState();
   const [emailSuccess, setEmailSuccess] = React.useState();
   const lang = 'en'; // req.query.lang || 'en'
+
+  React.useEffect(() => {
+    tracker.trackPageView();
+  }, []);
 
   function __(message) {
     return t(message, lang);
@@ -46,6 +51,7 @@ export default function Home() {
         setEmailError(true);
       });
   }
+
   return (
     <div>
       <Head>

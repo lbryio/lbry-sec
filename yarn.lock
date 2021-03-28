@@ -39,6 +39,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@datapunt/matomo-tracker-js@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@datapunt/matomo-tracker-js/-/matomo-tracker-js-0.4.0.tgz#0b5012e1de5d302f4ba169ae94904155e526266e"
+  integrity sha512-jOLKZCyPc1y8ZntTTW0vnHAbU1jQHA5Ibdyb7G9jt+KWvGDR2wotX4ki2/x7SMD+IfOrfKDJ9pXzVo29dPIjAg==
+
 "@hapi/accept@5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.1.tgz#068553e867f0f63225a506ed74e899441af53e10"
