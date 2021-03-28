@@ -12,9 +12,7 @@ const en = {
   save_crypto: 'SAVE CRYPTO',
 };
 
-const es = {
-  title: 'Hola amigo',
-};
+const es = {};
 
 const languages = {
   es,
