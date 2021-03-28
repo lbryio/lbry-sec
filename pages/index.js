@@ -135,11 +135,11 @@ export default function Home() {
           </p>
 
           <div className="video">
-            <iframe
+            {/* <iframe
               id="lbry-iframe"
               src="https://odysee.com/$/embed/odysee/7a416c44a6888d94fe045241bbac055c726332aa?r=A6zE8KtZ6VVk268xANdFViL8znbDXL4F"
               allowFullScreen
-            />
+            /> */}
           </div>
 
           <div className="email">
