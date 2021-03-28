@@ -100,9 +100,7 @@ export default function Home() {
           </h1>
           <div className="landing__subtitle">
             <div>
-              The SEC doesn’t understand blockchain or crypto.
-              <br />
-              They’re saying LBC is a security, it’s not!
+              The SEC doesn’t understand blockchain. The claims made in SEC vs. LBRY, Inc. would destroy the United States cryptocurrency industry.
             </div>
             <div className="landing__standout">
               <span>Help us educate the SEC</span>
@@ -113,8 +111,14 @@ export default function Home() {
         <div className="content">
           <h2>What’s the big deal?</h2>
           <div className="content__subtitle">
-            The entire blockchain industry is at risk in the US and many hard
-            working people could lose their jobs & livelihood!
+            The entire blockchain industry is at risk in the United States. Big tech and big finance would further
+            cement their control and many people could lose their jobs & livelihood!
+          </div>
+          <div>
+            <small>Warning / Enticement: this video is more entertainment than education, read the
+              <a className="link" href="https://odysee.com/helplbrysavecrypto">Case Guide & FAQ</a>
+              for facts
+            </small>
           </div>
           <div className="video">
             <iframe
@@ -126,16 +130,9 @@ export default function Home() {
 
           <div className="content__section">
             <p>
-              The SEC is claiming the LBRY token does not have utility and is
-              not purchased for reasons of usage, therefore they believe it
-              should be registered as a security. If LBC were to be classed as a
-              security, this would create a major bureaucratic nightmare for all
-              blockchain companies and people with crypto. it is also likely
-              that many blockchain companies will fold due to being unable to
-              bear the new costs of being in business. This would in turn
-              eliminate the jobs and income of many millions of people and
-              effectively kill the advancement of a critical new technology and
-              industry in the US.
+              In SEC vs. LBRY, Inc., the SEC is advancing an aggressive and disastrous new standard that would make almost all blockchain tokens securities.
+<br/><br/>
+              The SEC is claiming that token sales are securities even after a network is decentralized and fully-functional. Because LBRY is still undergoing development, it wasn't a "finished product".
             </p>
 
             <div className="content__img">
@@ -162,74 +159,85 @@ export default function Home() {
             </div>
 
             <p>
-              Essentially it would effectively make it very difficult for
-              ourselves and other blockchain companies to distribute rewards to
-              you and for you to exchange them. it is also likely that many
-              blockchain companies will fold due to being unable to bear the new
-              costs of being in business. This would in turn eliminate the jobs
-              and income of many millions of people and effectively kill the
-              advancement of a critical new technology and industry in the US
+              But technology is never finished! Under this new standard, almost any token is a security, even including the previously safe ETH (ETH 2.0 shows it was not "finished"). Classifying all blockchain tokens as securities will be a bureaucratic nightmare for all United States residents and businesses operating in the United States.
+              <br/><br/>
+              This change will make it much harder for startups to form new blockchain companies, cause massive job loss, and stunt the development of a critical new technology. It will further cement the control of big tech and big finance.
             </p>
           </div>
 
-          <div className="email">
-            <h2>Stay up to date</h2>
-            <div className="email__subtitle">
-              We will keep you up to date with any information we receive about
-              this case.
-            </div>
+          <h2>Share this story</h2>
+          <div className="content__subtitle">
+            Post to social media to spread awareness.
+            &nbsp;
+            <a
+              href="https://twitter.com/intent/tweet?text=LBRY%20and%20cryptocurrencies%20are%20useful%20technologies%20that%20must%20remain%20legal%20and%20free%20%23HelpLBRYSaveCrypto%0A%0Awww.helplbrysavecrypto.com"
+              className="link"
+              rel="noreferrer noopener"
+              target="_blannk"
+            >
+              #HelpLBRYSaveCrypto
+            </a>
+          </div>
+        </div>
 
-            <label htmlFor="email">Email</label>
-            <form className="email__group" onSubmit={handleEmailSubmit}>
-              <input
+        <div className="content">
+          <h2>What are people saying?</h2>
+          <Twitter />
+        </div>
+
+        <div className="content">
+          <h2>Sign the petition</h2>
+          <div className="content__subtitle">
+            Tell Gary Gensler and the SEC that cryptocurrency must remain legal and free.{' '}
+            <a className="link" href="https://www.change.org/p/28064277">Add your signature</a>.
+          </div>
+        </div>
+
+
+        <div className="email">
+          <h2>Stay up to date</h2>
+          <div className="email__subtitle">
+            We will keep you up to date with any information we receive about
+            this case.
+          </div>
+
+          <label htmlFor="email">Email</label>
+          <form className="email__group" onSubmit={handleEmailSubmit}>
+            <input
                 type="email"
                 name="email"
                 placeholder="ihatecensorship@protonmail.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-              />
-              <button disabled={!email || emailLoading}>
-                {emailLoading ? 'Submitting' : 'Submit'}
-              </button>
-            </form>
+            />
+            <button disabled={!email || emailLoading}>
+              {emailLoading ? 'Submitting' : 'Submit'}
+            </button>
+          </form>
 
-            {emailSuccess && (
+          {emailSuccess && (
               <div className="email__success">
                 Thank you! We will keep you in the loop.
               </div>
-            )}
-            {emailError && (
+          )}
+          {emailError && (
               <div className="email__success">
                 Sorry, there was an error. Please try again.
               </div>
-            )}
-          </div>
-
-          <h2>What are people saying?</h2>
-          <div className="content__subtitle">
-            Tweet with the hashtag to let the SEC know how you feel.
-            <a
-              href="https://twitter.com/intent/tweet?text=Down%20with%20the%20SEC!%20%23BattleForCrypto"
-              className="link"
-              rel="noreferrer noopener"
-              target="_blannk"
-            >
-              #BattleForCrypto
-            </a>
-          </div>
+          )}
         </div>
-        <Twitter />
 
         <div className="content">
-          <h2>Sign the petition</h2>
+          <h2>Try LBRY</h2>
           <div className="content__subtitle">
-            Who knows, maybe a petition will work.{' '}
-            <a className="link">Add your signature</a>.
+            If the government and big tech want it gone, it must be good.
           </div>
-
-          <h2>Share this story</h2>
-          <div className="content__subtitle">Everything helps</div>
+          <div>
+            <a href="https://lbry.com/get" className="link">LBRY Desktop</a> (decentralized and open-source)
+            <a href="https://odysee.com" className="link">Odysee</a> (easiest to use)
+          </div>
         </div>
+
       </main>
     </div>
   );
