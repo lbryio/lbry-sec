@@ -100,7 +100,9 @@ export default function Home() {
           </h1>
           <div className="landing__subtitle">
             <div>
-              The SEC doesn’t understand blockchain. The claims made in SEC vs. LBRY, Inc. would destroy the United States cryptocurrency industry.
+              The SEC doesn’t understand blockchain. The claims made in SEC vs.
+              LBRY, Inc. would destroy the United States cryptocurrency
+              industry.
             </div>
             <div className="landing__standout">
               <span>Help us educate the SEC</span>
@@ -111,11 +113,17 @@ export default function Home() {
         <div className="content">
           <h2>What’s the big deal?</h2>
           <div className="content__subtitle">
-            The entire blockchain industry is at risk in the United States. Big tech and Wall St. would have more power and many people could lose their jobs!
+            The entire blockchain industry is at risk in the United States. Big
+            tech and Wall St. would have more power and many people could lose
+            their jobs!
           </div>
           <div>
-            <small>Warning / Enticement: this video is more entertainment than education, read the
-              <a className="link" href="https://odysee.com/helplbrysavecrypto">Case Guide & FAQ</a>
+            <small>
+              Warning / Enticement: this video is more entertainment than
+              education, read the
+              <a className="link" href="https://odysee.com/helplbrysavecrypto">
+                Case Guide & FAQ
+              </a>
               for facts
             </small>
           </div>
@@ -129,9 +137,13 @@ export default function Home() {
 
           <div className="content__section">
             <p>
-              The SEC is advancing an aggressive and disastrous new standard that would make almost all blockchain tokens securities.
-<br/><br/>
-              Classifying all blockchain tokens as securities will be a bureaucratic nightmare for all United States residents and businesses operating in the United States.
+              The SEC is advancing an aggressive and disastrous new standard
+              that would make almost all blockchain tokens securities.
+              <br />
+              <br />
+              Classifying all blockchain tokens as securities will be a
+              bureaucratic nightmare for all United States residents and
+              businesses operating in the United States.
             </p>
 
             <div className="content__img">
@@ -139,8 +151,6 @@ export default function Home() {
                 src="/machine.png"
                 alt="Image of LBRY cartoon"
                 layout="fill"
-                //   height={100}
-                //   width={100}
               />
             </div>
           </div>
@@ -158,16 +168,21 @@ export default function Home() {
             </div>
 
             <p>
-              Under this new standard, almost any token is a security, including the previously safe ETH. The SEC additionally claim that token sales are sales of securities too!  
-              <br/><br/>
-              This change will make it much harder for startups to form new blockchain companies, cause massive job loss, and stunt the development of a critical new technology. All the while, big tech and Wall St. prosper!
+              Under this new standard, almost any token is a security, including
+              the previously safe ETH. The SEC additionally claim that token
+              sales are sales of securities too!
+              <br />
+              <br />
+              This change will make it much harder for startups to form new
+              blockchain companies, cause massive job loss, and stunt the
+              development of a critical new technology. All the while, big tech
+              and Wall St. prosper!
             </p>
           </div>
 
           <h2>Share this story</h2>
           <div className="content__subtitle">
-            Post to social media to spread awareness.
-            &nbsp;
+            Post to social media to spread awareness. &nbsp;
             <a
               href="https://twitter.com/intent/tweet?text=LBRY%20and%20cryptocurrencies%20are%20useful%20technologies%20that%20must%20remain%20legal%20and%20free%20%23HelpLBRYSaveCrypto%0A%0Awww.helplbrysavecrypto.com"
               className="link"
@@ -187,11 +202,14 @@ export default function Home() {
         <div className="content">
           <h2>Sign the petition</h2>
           <div className="content__subtitle">
-            Tell Gary Gensler and the SEC that cryptocurrency must remain legal and free.{' '}
-            <a className="link" href="https://www.change.org/p/28064277">Add your signature</a>.
+            Tell Gary Gensler and the SEC that cryptocurrency must remain legal
+            and free.{' '}
+            <a className="link" href="https://www.change.org/p/28064277">
+              Add your signature
+            </a>
+            .
           </div>
         </div>
-
 
         <div className="email">
           <h2>Stay up to date</h2>
@@ -203,11 +221,11 @@ export default function Home() {
           <label htmlFor="email">Email</label>
           <form className="email__group" onSubmit={handleEmailSubmit}>
             <input
-                type="email"
-                name="email"
-                placeholder="ihatecensorship@protonmail.com"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
+              type="email"
+              name="email"
+              placeholder="ihatecensorship@protonmail.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
             <button disabled={!email || emailLoading}>
               {emailLoading ? 'Submitting' : 'Submit'}
@@ -215,14 +233,14 @@ export default function Home() {
           </form>
 
           {emailSuccess && (
-              <div className="email__success">
-                Thank you! We will keep you in the loop.
-              </div>
+            <div className="email__success">
+              Thank you! We will keep you in the loop.
+            </div>
           )}
           {emailError && (
-              <div className="email__success">
-                Sorry, there was an error. Please try again.
-              </div>
+            <div className="email__success">
+              Sorry, there was an error. Please try again.
+            </div>
           )}
         </div>
 
@@ -232,11 +250,16 @@ export default function Home() {
             If the government and big tech want it gone, it must be good.
           </div>
           <div>
-            <a href="https://lbry.com/get" className="link">LBRY Desktop</a> (decentralized and open-source)
-            <a href="https://odysee.com" className="link">Odysee</a> (easiest to use)
+            <a href="https://lbry.com/get" className="link">
+              LBRY Desktop
+            </a>{' '}
+            (decentralized and open-source)
+            <a href="https://odysee.com" className="link">
+              Odysee
+            </a>{' '}
+            (easiest to use)
           </div>
         </div>
-
       </main>
     </div>
   );
