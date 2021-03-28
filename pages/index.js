@@ -57,6 +57,11 @@ export default function Home() {
           content="https://i.imgur.com/pnU7PJz.jpg"
           key="image"
         />
+        <meta
+          property="og:description"
+          content="The SEC doesn’t understand blockchain or crypto. They’re saying LBC is a security, it’s not!"
+          key="description"
+        />
       </Head>
 
       <header>
