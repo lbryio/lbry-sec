@@ -1,12 +1,19 @@
 import React from 'react';
 import Head from 'next/head';
 import { Twitter } from '../component/twitter';
+import { Stripe } from '../component/stripe';
+import { t, m } from '../i18n';
 
 export default function Home() {
   const [email, setEmail] = React.useState('');
   const [emailLoading, setEmailLoading] = React.useState(false);
   const [emailError, setEmailError] = React.useState();
   const [emailSuccess, setEmailSuccess] = React.useState();
+  const lang = 'es'; // req.query.lang || 'en'
+
+  function __(message) {
+    return t(message, lang);
+  }
 
   function handleEmailSubmit(e) {
     e.preventDefault();
@@ -42,7 +49,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>LBRY, THE SEC, & THE FUTURE OF CRYPTO</title>
+        <title>{__(m.title)}</title>
         <link rel="icon" href="/favicon.ico" />
 
         <meta
@@ -53,7 +60,7 @@ export default function Home() {
       </Head>
 
       <header>
-        <span className="title">LBRY, THE SEC, & THE FUTURE OF CRYPTO</span>
+        <span className="title">{__(m.title)}</span>
 
         <div className="header__links">
           <a
@@ -88,23 +95,30 @@ export default function Home() {
         </div>
 
         <div className="content">
-          <h2>What is happening?</h2>
+          <h2>What’s the big deal?</h2>
           <div className="content__subtitle">
-            The SEC is bringing a case against LBRY, Inc, which could harm the
-            entire cryptocurrency space.
+            The entire blockchain industry is at risk in the US and many hard
+            working people could lose their jobs & livelihood!
           </div>
           <p>
-            The Securities and Exchange Commission has filed a case against
-            LBRY, Inc. alleging that all distributions of LBRY Credits by LBRY,
-            Inc. are unregistered securities offerings.
+            The SEC is claiming the LBRY token does not have utility and is not
+            purchased for reasons of usage, therefore they believe it should be
+            registered as a security. If LBC were to be classed as a security,
+            this would create a major bureaucratic nightmare for all blockchain
+            companies and people with crypto. it is also likely that many
+            blockchain companies will fold due to being unable to bear the new
+            costs of being in business. This would in turn eliminate the jobs
+            and income of many millions of people and effectively kill the
+            advancement of a critical new technology and industry in the US.
           </p>
           <p>
-            The SEC is claiming the LBRY token does not have utility and is not
-            purchased for reasons of usage, which fortunately for everyone
-            involved in cryptocurrency, makes this an extremely winnable case.
-            Should LBRY, Inc. lose this case, it is likely that most other
-            blockchain companies, as well as most individuals working on
-            blockchain, would also be culpable.
+            Essentially it would effectively make it very difficult for
+            ourselves and other blockchain companies to distribute rewards to
+            you and for you to exchange them. it is also likely that many
+            blockchain companies will fold due to being unable to bear the new
+            costs of being in business. This would in turn eliminate the jobs
+            and income of many millions of people and effectively kill the
+            advancement of a critical new technology and industry in the US
           </p>
 
           <div className="video">
@@ -149,6 +163,18 @@ export default function Home() {
           </div>
 
           <h2>What are people saying?</h2>
+          <div className="content__subtitle">
+            Tweet with the hashtag{' '}
+            <a
+              href="https://twitter.com/intent/tweet?text=Down%20with%20the%20SEC!%20%23BattleForCrypto"
+              className="petition__link"
+              rel="noreferrer noopener"
+              target="_blannk"
+            >
+              #BattleForCrypto
+            </a>{' '}
+            to let the SEC know how you feel.
+          </div>
         </div>
         <Twitter />
 
@@ -161,6 +187,7 @@ export default function Home() {
 
           <h2>Donate</h2>
           <div className="content__subtitle">Money please</div>
+          <Stripe />
         </div>
       </main>
     </div>
