@@ -27,13 +27,7 @@ export default function Home() {
         email,
       }),
     })
-      .then((res) => {
-        if (res.status >= 200 && res.status < 300) {
-          return res.json();
-        } else {
-          throw Error(res.error);
-        }
-      })
+      .then((res) => res.json())
       .then((data) => {
         setEmailLoading(false);
         setEmailSuccess(true);
