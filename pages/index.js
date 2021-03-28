@@ -111,8 +111,7 @@ export default function Home() {
         <div className="content">
           <h2>What’s the big deal?</h2>
           <div className="content__subtitle">
-            The entire blockchain industry is at risk in the United States. Big tech and big finance would further
-            cement their control and many people could lose their jobs & livelihood!
+            The entire blockchain industry is at risk in the United States. Big tech and Wall St. would have more power and many people could lose their jobs!
           </div>
           <div>
             <small>Warning / Enticement: this video is more entertainment than education, read the
@@ -130,9 +129,9 @@ export default function Home() {
 
           <div className="content__section">
             <p>
-              In SEC vs. LBRY, Inc., the SEC is advancing an aggressive and disastrous new standard that would make almost all blockchain tokens securities.
+              The SEC is advancing an aggressive and disastrous new standard that would make almost all blockchain tokens securities.
 <br/><br/>
-              The SEC is claiming that token sales are securities even after a network is decentralized and fully-functional. Because LBRY is still undergoing development, it wasn't a "finished product".
+              Classifying all blockchain tokens as securities will be a bureaucratic nightmare for all United States residents and businesses operating in the United States.
             </p>
 
             <div className="content__img">
@@ -159,9 +158,9 @@ export default function Home() {
             </div>
 
             <p>
-              But technology is never finished! Under this new standard, almost any token is a security, even including the previously safe ETH (ETH 2.0 shows it was not "finished"). Classifying all blockchain tokens as securities will be a bureaucratic nightmare for all United States residents and businesses operating in the United States.
+              Under this new standard, almost any token is a security, including the previously safe ETH. The SEC additionally claim that token sales are sales of securities too!  
               <br/><br/>
-              This change will make it much harder for startups to form new blockchain companies, cause massive job loss, and stunt the development of a critical new technology. It will further cement the control of big tech and big finance.
+              This change will make it much harder for startups to form new blockchain companies, cause massive job loss, and stunt the development of a critical new technology. All the while, big tech and Wall St. prosper!
             </p>
           </div>
 
