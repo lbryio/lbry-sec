@@ -44,6 +44,12 @@ export default function Home() {
       <Head>
         <title>LBRY, THE SEC, & THE FUTURE OF CRYPTO</title>
         <link rel="icon" href="/favicon.ico" />
+
+        <meta
+          property="og:image"
+          content="https://imgur.com/a/tRFLEgp"
+          key="image"
+        />
       </Head>
 
       <header>
