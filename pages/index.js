@@ -1,5 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
+
 import { Twitter } from '../component/twitter';
 import { Stripe } from '../component/stripe';
 import { t, m } from '../i18n';
@@ -114,33 +116,60 @@ export default function Home() {
             The entire blockchain industry is at risk in the US and many hard
             working people could lose their jobs & livelihood!
           </div>
-          <p>
-            The SEC is claiming the LBRY token does not have utility and is not
-            purchased for reasons of usage, therefore they believe it should be
-            registered as a security. If LBC were to be classed as a security,
-            this would create a major bureaucratic nightmare for all blockchain
-            companies and people with crypto. it is also likely that many
-            blockchain companies will fold due to being unable to bear the new
-            costs of being in business. This would in turn eliminate the jobs
-            and income of many millions of people and effectively kill the
-            advancement of a critical new technology and industry in the US.
-          </p>
-          <p>
-            Essentially it would effectively make it very difficult for
-            ourselves and other blockchain companies to distribute rewards to
-            you and for you to exchange them. it is also likely that many
-            blockchain companies will fold due to being unable to bear the new
-            costs of being in business. This would in turn eliminate the jobs
-            and income of many millions of people and effectively kill the
-            advancement of a critical new technology and industry in the US
-          </p>
-
           <div className="video">
-            {/* <iframe
+            <iframe
               id="lbry-iframe"
               src="https://odysee.com/$/embed/odysee/7a416c44a6888d94fe045241bbac055c726332aa?r=A6zE8KtZ6VVk268xANdFViL8znbDXL4F"
               allowFullScreen
-            /> */}
+            />
+          </div>
+
+          <div className="content__section">
+            <p>
+              The SEC is claiming the LBRY token does not have utility and is
+              not purchased for reasons of usage, therefore they believe it
+              should be registered as a security. If LBC were to be classed as a
+              security, this would create a major bureaucratic nightmare for all
+              blockchain companies and people with crypto. it is also likely
+              that many blockchain companies will fold due to being unable to
+              bear the new costs of being in business. This would in turn
+              eliminate the jobs and income of many millions of people and
+              effectively kill the advancement of a critical new technology and
+              industry in the US.
+            </p>
+
+            <div className="content__img">
+              <Image
+                src="/machine.png"
+                alt="Image of LBRY cartoon"
+                layout="fill"
+                //   height={100}
+                //   width={100}
+              />
+            </div>
+          </div>
+          <div className="content__section">
+            <div className="content__img">
+              <Image
+                className="content__img"
+                src="/megaphone.png"
+                alt="Image of LBRY cartoon"
+                layout="fill"
+
+                //   height={100}
+                //   width={100}
+              />
+            </div>
+
+            <p>
+              Essentially it would effectively make it very difficult for
+              ourselves and other blockchain companies to distribute rewards to
+              you and for you to exchange them. it is also likely that many
+              blockchain companies will fold due to being unable to bear the new
+              costs of being in business. This would in turn eliminate the jobs
+              and income of many millions of people and effectively kill the
+              advancement of a critical new technology and industry in the US
+            </p>
           </div>
 
           <div className="email">

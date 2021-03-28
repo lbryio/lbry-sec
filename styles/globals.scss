@@ -196,6 +196,39 @@ main {
   }
 }
 
+.content__section {
+  display: flex;
+  position: relative;
+
+  margin-top: 2rem;
+
+  @media (max-width: $breakpoint-small) {
+    margin-top: 0;
+  }
+
+  p {
+    width: 80%;
+
+    @media (max-width: $breakpoint-small) {
+      width: 100%;
+    }
+  }
+
+  .content__img {
+    position: relative;
+    width: 80%;
+    margin: 3rem 0;
+
+    @media (max-width: $breakpoint-small) {
+      display: none;
+    }
+  }
+
+  img {
+    width: 600px;
+  }
+}
+
 .content__subtitle {
   margin-top: 1rem;
   margin-bottom: 2rem;
