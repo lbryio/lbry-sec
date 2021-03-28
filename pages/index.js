@@ -54,7 +54,7 @@ export default function Home() {
 
         <meta
           property="og:image"
-          content="https://imgur.com/a/tRFLEgp"
+          content="https://i.imgur.com/pnU7PJz.jpg"
           key="image"
         />
       </Head>
@@ -74,7 +74,9 @@ export default function Home() {
       </header>
 
       <main>
-        <div className="landing__img" />
+        <div className="landing__img-container">
+          <img className="landing__img" src="https://i.imgur.com/pnU7PJz.jpg" />
+        </div>
 
         <div className="landing__text">
           <h1 className="landing__title">
