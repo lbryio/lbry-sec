@@ -71,7 +71,7 @@ export default function Home() {
           <div className="landing__subtitle">
             <div>
               The SEC doesn’t understand blockchain. The claims made in SEC vs.
-              LBRY, Inc. would destroy the United States cryptocurrency
+              LBRY would destroy the United States cryptocurrency
               industry.
             </div>
             <div className="landing__standout">
