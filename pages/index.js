@@ -59,7 +59,7 @@ export default function Home() {
 
       <main>
         <div className="landing__img-container">
-          <img className="landing__img" src="https://i.imgur.com/pnU7PJz.jpg" />
+          <img className="landing__img" src="https://i.imgur.com/onVjlEW.jpg" />
         </div>
 
         <div className="landing__text">
@@ -112,8 +112,8 @@ export default function Home() {
               <br />
               <br />
               Classifying all blockchain tokens as securities will be a
-              bureaucratic nightmare for United States residents and
-              businesses operating in the US.
+              bureaucratic nightmare for United States residents and businesses
+              operating in the US.
             </p>
 
             <div className="content__img">

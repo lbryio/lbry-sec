@@ -20,7 +20,7 @@ export function Header(props) {
 
         <meta
           property="og:image"
-          content="https://i.imgur.com/pnU7PJz.jpg"
+          content="https://i.imgur.com/onVjlEW.jpg"
           key="image"
         />
         <meta
