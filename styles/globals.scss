@@ -159,23 +159,6 @@ main {
 
 .landing__standout {
   margin-top: 1.5rem;
-  font-weight: bolder;
-  display: inline-block;
-
-  background-color: white;
-  color: black;
-  font-weight: 900;
-
-  padding: 0.75rem;
-  margin-top: 2rem;
-  font-size: 1.2rem;
-  padding: 1.5rem;
-
-  transform: skew(-5deg);
-
-  span {
-    transform: skew(5deg);
-  }
 
   @media (min-width: $breakpoint-small) {
     font-size: 1.5rem;
