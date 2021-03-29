@@ -22,7 +22,7 @@ Yes, all of your Credits remain yours and remain usable even after the SEC’s c
 regardless of the outcome.
 
 If you want to ensure you have complete control over your Credits, channels, and content,
-download [LBRY Desktop](http://lbry.com/get).
+download [LBRY Desktop](https://lbry.com/get).
 
 ### Is the LBRY network in danger?
 
@@ -159,8 +159,8 @@ Email [press@lbry.com](mailto:press@lbry.com).
 ### How can I support LBRY Inc in this case?
 
 - Share this story, in your own words, on social media, using the tag #helplbrysavecrypto.
-  Or you can just share a link to [helplbrysavecrypto.com](http://helplbrysavecrypto.com/).
-- Sign the petition at [helplbrysavecrypto.com](http://helplbrysavecrypto.com/).
+  Or you can just share a link to [helplbrysavecrypto.com](https://helplbrysavecrypto.com/).
+- Sign the petition at [helplbrysavecrypto.com](https://helplbrysavecrypto.com/).
 - Donate to our defense fund.
 - If you’re involved in one of the hundreds of other blockchain companies being investigated by the
   SEC, you can share your story. The SEC doesn’t want you to talk because your silence helps them.
@@ -171,5 +171,5 @@ Email [press@lbry.com](mailto:press@lbry.com).
 
 - Follow #helplbrysavecrypto on social media and [@lbrycom](https://twitter.com/lbrycom) on twitter.
 - Updates will be posted to the [@lbry](https://odysee.com/@lbry) channel on LBRY.
-- Make [helplbrysavecrypto.com](http://helplbrysavecrypto.com/) your homepage (or check it regularly).
+- Make [helplbrysavecrypto.com](https://helplbrysavecrypto.com/) your homepage (or check it regularly).
 - Subscribe for updates below 👇
