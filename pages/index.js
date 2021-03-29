@@ -135,6 +135,33 @@ export default function Home() {
         <Email />
 
         <div className="content">
+          <h2 className="content__section-title">Donate</h2>
+          <div className="content__subtitle">
+            If you want to go far, go together.
+          </div>
+          <table className="content__table">
+            <tr>
+              <th>BTC</th>
+              <td>
+                <code>bc1qtfylps0guegw83el0tn3c7s35cyy728fskk6a8</code>
+              </td>
+            </tr>
+            <tr>
+              <th>ETH & ERC</th>
+              <td>
+                <code>0x13Dd57244116Ae29fd4346436494AAF4C72c5e84</code>
+              </td>
+            </tr>
+            <tr>
+              <th>LBC</th>
+              <td>
+                <code>Lbc1qwpt9caexxzqlpw07h7jyh28r60hf86t9xn6flk</code>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div className="content">
           <h2 className="content__section-title">Try LBRY</h2>
           <div className="content__subtitle">
             If the government and big tech want it gone, it must be good.
