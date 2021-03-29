@@ -223,7 +223,7 @@ export default function Home() {
             </div>
             <div className="donate">
               <div>LBC</div>
-              <code>lbc1qwpt9caexxzqlpw07h7jyh28r60hf86t9xn6flk</code>
+              <code>bJy8M3iYoLR3txW1shKB1idyECGbdDmidL</code>
             </div>
           </div>
         </div>
