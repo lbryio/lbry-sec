@@ -20,6 +20,8 @@ export function Twitter() {
       });
   }, []);
 
+  return null;
+
   if (!tweets || !(tweets.length > 5)) {
     return null;
   }
