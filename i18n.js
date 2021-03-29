@@ -56,7 +56,7 @@ const en = {
 
   summary_title: 'What’s the big deal?',
   summary_subtitle:
-    'The entire blockchain industry is at risk in the United States. Big tech and Wall St. would have more power and many people could lose their jobs!',
+    'The entire blockchain industry is at risk in the United States. Big tech and Wall St. would have more power and many people could lose their jobs.',
 
   p1_a:
     'The SEC is advancing an aggressive and disastrous new standard that would make almost all blockchain tokens securities.',
@@ -64,7 +64,7 @@ const en = {
     'Classifying all actively-developed blockchain tokens as securities will be a bureaucratic nightmare for United States residents and businesses operating in the US.',
 
   p2_a:
-    'Under this new standard, almost any token is a security, including the previously safe Ethereum. The nature of technology is that it is never "finished"!',
+    'Under this new standard, almost any token is a security, including the previously safe Ethereum. The nature of technology is that it is never "finished".',
   p2_b:
     'This change will make it much harder for startups to form new blockchain companies, cause massive job loss, and stunt the development of a critical new technology. All the while, big tech and Wall St. prosper!',
 
@@ -87,7 +87,7 @@ const en = {
   email_input_label: 'Email',
   email_input_button: 'Submit',
   email_input_button_loading: 'Submitting',
-  email_success: 'Thank you! We will keep you in the loop.',
+  email_success: 'Thank you. We will keep you in the loop.',
   email_error: 'Sorry, there was an error. Please try again.',
 
   try_lbry_title: 'Try LBRY',
