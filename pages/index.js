@@ -123,7 +123,7 @@ export default function Home() {
         <div className="content">
           <h2 className="content__section-title">Sign the petition</h2>
           <div className="content__subtitle">
-            Tell Gary Gensler and the SEC that cryptocurrency must remain legal
+            Tell the SEC that cryptocurrency must remain legal
             and free.{' '}
             <a className="link" href="https://www.change.org/p/28064277">
               Add your signature
