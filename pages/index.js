@@ -148,20 +148,23 @@ export default function Home() {
         <div className="content">
           <h2 className="content__section-title">{__(m.try_lbry_title)}</h2>
           <div className="content__subtitle">{__(m.try_lbry_subtitle)}</div>
-          <p>
-            <div className="lbry__try">
+
+          <div className="lbry__try">
+            <p>
               <a href="https://lbry.com/get" className="link">
                 {__(m.try_lbry_desktop_link)}
               </a>{' '}
               ({__(m.try_lbry_desktop_help)})
-            </div>
-            <div className="lbry__try">
+            </p>
+          </div>
+          <div className="lbry__try">
+            <p>
               <a href="https://odysee.com" className="link">
                 Odysee
               </a>{' '}
               ({__(m.try_odysee_help)})
-            </div>
-          </p>
+            </p>
+          </div>
         </div>
 
         <div className="content">
