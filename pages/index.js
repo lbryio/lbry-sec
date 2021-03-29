@@ -132,8 +132,6 @@ export default function Home() {
           </div>
         </div>
 
-        <Email />
-
         <div className="content">
           <h2 className="content__section-title">Donate</h2>
           <div className="content__subtitle">
@@ -161,12 +159,14 @@ export default function Home() {
           </table>
         </div>
 
+        <Email />
+
         <div className="content">
           <h2 className="content__section-title">Try LBRY</h2>
           <div className="content__subtitle">
             If the government and big tech want it gone, it must be good.
           </div>
-          <div>
+          <p>
             <div className="lbry__try">
               <a href="https://lbry.com/get" className="link">
                 LBRY Desktop
@@ -179,7 +179,14 @@ export default function Home() {
               </a>{' '}
               (easiest to use)
             </div>
-          </div>
+          </p>
+        </div>
+
+        <div className="content">
+          <h2 className="content__section-title">Contact Us</h2>
+          <p>Press inquiries: <a className="link" href="mailto:press@lbry.com">press@lbry.com</a></p>
+          <p>Other email: <a className="link" href="mailto:savecrypto@lbry.com">savecrypto@lbry.com</a></p>
+          <p>Twitter: <a className="link" href="https://twitter.com/lbrycom">@LBRYcom</a></p>
         </div>
       </main>
     </div>

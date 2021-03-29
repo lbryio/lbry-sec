@@ -42,7 +42,7 @@ export function Email() {
     <div className="email">
       <h2 className="content__section-title">Stay Informed</h2>
       <div className="email__subtitle">
-        We will keep you up to date with the latest on this situation.
+        We will keep you up to date with the latest on this case.
       </div>
 
       <label htmlFor="email">Email</label>
