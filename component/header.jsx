@@ -34,14 +34,17 @@ export function Header(props) {
         <Link href="/">
           <span className="title">{__(m.title)}</span>
         </Link>
-
-        {!faqPage && (
-          <div className="header__links">
+        <div className="header__links">
+          {!faqPage ? (
             <Link href="/faq">
               <span className="link">FAQ</span>
             </Link>
-          </div>
-        )}
+          ) : (
+            <Link href="/">
+              <span className="link">Go Home</span>
+            </Link>
+          )}
+        </div>
       </header>
     </>
   );
