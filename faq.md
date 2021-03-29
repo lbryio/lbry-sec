@@ -147,7 +147,7 @@ Consider an apathetic enforcer whose job review is simply “how many enforcemen
 
 At this time, we do not expect any of these programs to change. Some exchanges may choose to no
 longer allow U.S. customers to exchange LBRY Credits. We do not expect any other changes until the
-case is resolved.
+case is resolved. Please see our FAQ for a [full list of available exchanges](https://lbry.com/faq/exchanges). 
 
 ### Where can I view the full complaint?
 
