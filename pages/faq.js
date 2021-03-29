@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import { useRouter } from 'next/router';
 import { Header } from '../component/header';
 import { Email } from '../component/email';
 import md from '../faq.md';
+import { t, m } from '../i18n';
+import { tracker } from '../analytics';
 
 function flatten(text, child) {
   return typeof child === 'string'
@@ -18,6 +21,17 @@ function HeadingRenderer(props) {
 }
 
 export default function Faq() {
+  const router = useRouter();
+  const lang = router.query.lang || 'en';
+
+  React.useEffect(() => {
+    tracker.trackPageView();
+  }, []);
+
+  function __(message) {
+    return t(message, lang);
+  }
+
   return (
     <div>
       <Header faqPage />
@@ -29,7 +43,7 @@ export default function Faq() {
           </ReactMarkdown>
         </div>
 
-        <Email />
+        <Email i18n={__} />
       </main>
     </div>
   );
