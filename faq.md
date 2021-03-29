@@ -3,8 +3,7 @@
 ## Summary
 
 The Securities and Exchange Commission has filed a complaint against LBRY Inc alleging that all
-distributions of LBRY Credits by LBRY Inc are unregistered securities offerings. This claim is both
-devoid of fact and a tremendous threat to the entire cryptocurrency industry.
+distributions of LBRY Credits by LBRY Inc are unregistered securities offerings. This claim is a tremendous threat to the entire cryptocurrency industry.
 
 The LBRY network is decentralized and not at risk. For users of the LBRY protocol and apps, your
 channels, content, and token holdings are not at risk. Even in an unlikely scenario in which LBRY
