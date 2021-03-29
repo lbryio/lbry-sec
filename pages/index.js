@@ -198,6 +198,12 @@ export default function Home() {
               @LBRYcom
             </a>
           </p>
+          <p>
+            Discord (not run by LBRY Inc):{' '}
+            <a className="link" href="https://chat.lbry.org">
+              LBRY Discord
+            </a>
+          </p>
         </div>
 
         <div className="content">
