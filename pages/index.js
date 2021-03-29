@@ -30,27 +30,19 @@ export default function Home() {
           <h1 className="landing__title">
             {__(m.help_lbry)}
             <br />
-            SAVE CRYPTO
+            {__(m.save_crypto)}
           </h1>
           <div className="landing__subtitle">
-            <div>
-              The SEC doesn’t understand blockchain. The claims made in SEC vs.
-              LBRY would destroy the United States cryptocurrency
-              industry.
-            </div>
+            <div>{__(m.landing_subtitle)}</div>
             <div className="landing__standout">
-              <span>Help us educate the SEC</span>
+              <span>{__(m.landing_action)}</span>
             </div>
           </div>
         </div>
 
         <div className="content">
-          <h2 className="content__section-title">What’s the big deal?</h2>
-          <div className="content__subtitle">
-            The entire blockchain industry is at risk in the United States. Big
-            tech and Wall St. would have more power and many people could lose
-            their jobs!
-          </div>
+          <h2 className="content__section-title">{__(m.summary_title)}</h2>
+          <div className="content__subtitle">{__(m.summary_subtitle)}</div>
 
           {/* <div>
             <small>

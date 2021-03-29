@@ -25,7 +25,7 @@ export function Header(props) {
         />
         <meta
           property="og:description"
-          content="The SEC doesn’t understand blockchain. The claims made in SEC vs. LBRY, Inc. would destroy the United States cryptocurrency industry."
+          content={m.og_description}
           key="description"
         />
       </Head>
@@ -41,7 +41,7 @@ export function Header(props) {
             </Link>
           ) : (
             <Link href="/">
-              <span className="link">Go Home</span>
+              <span className="link">{__(m.go_home)}</span>
             </Link>
           )}
         </div>
