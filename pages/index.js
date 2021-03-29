@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
+
 import { Header } from '../component/header';
 import { Twitter } from '../component/twitter';
 import { Email } from '../component/email';
@@ -7,7 +9,8 @@ import { t, m } from '../i18n';
 import { tracker } from '../analytics';
 
 export default function Home() {
-  const lang = 'en'; // req.query.lang || 'en'
+  const router = useRouter();
+  const lang = router.query.lang || 'en';
 
   React.useEffect(() => {
     tracker.trackPageView();

@@ -1,5 +1,4 @@
 export const m = {
-  faq: 'faq',
   help_lbry: 'help_lbry',
   save_crypto: 'save_crypto',
   go_home: 'go_home',
@@ -107,7 +106,9 @@ const en = {
   donate_subtitle: 'If you want to go far, go together.',
 };
 
-const es = {};
+const es = {
+  // landing_action: '...',
+};
 
 const languages = {
   es,
