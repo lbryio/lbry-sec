@@ -136,6 +136,21 @@ export default function Home() {
         </div>
 
         <div className="content">
+          <h2 className="content__section-title" id="petition">
+            Read more
+          </h2>
+          <div className="content__subtitle">
+            Read our case guide and FAQ{' '}
+            <a className="link" href="/faq">
+              here
+            </a>
+            .
+          </div>
+        </div>
+
+        <Email />
+
+        <div className="content">
           <h2 className="content__section-title" id="donate">
             Donate
           </h2>
@@ -158,8 +173,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <Email />
 
         <div className="content">
           <h2 className="content__section-title">Try LBRY</h2>
