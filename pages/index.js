@@ -142,8 +142,8 @@ export default function Home() {
               <br />
               <br />
               Classifying all blockchain tokens as securities will be a
-              bureaucratic nightmare for all United States residents and
-              businesses operating in the United States.
+              bureaucratic nightmare for United States residents and
+              businesses operating in the US.
             </p>
 
             <div className="content__img">
@@ -169,7 +169,7 @@ export default function Home() {
 
             <p>
               Under this new standard, almost any token is a security, including
-              the previously safe ETH. The SEC additionally claim that token
+              the previously safe ETH. The SEC additionally claims that token
               sales are sales of securities too!
               <br />
               <br />
