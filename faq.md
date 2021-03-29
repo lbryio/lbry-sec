@@ -26,7 +26,7 @@ download [LBRY Desktop](https://lbry.com/get).
 
 ### Is the LBRY network in danger?
 
-The LBRY network is robust and decentralized, and far harder to disrupt than LBRY Inc Hundreds of
+The LBRY network is robust and decentralized, and far harder to disrupt than LBRY Inc. Hundreds of
 people across six continents contributed to LBRY last year (c’mon Antarctica!). Even in the scenario
 that LBRY Inc is literally destroyed by the SEC as a result of this lawsuit, the LBRY project will
 continue.
