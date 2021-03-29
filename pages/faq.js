@@ -4,8 +4,8 @@ import { useRouter } from 'next/router';
 import { Header } from '../component/header';
 import { Email } from '../component/email';
 import md from '../faq.md';
-import { t, m } from '../i18n';
 import { tracker } from '../analytics';
+import { t, m } from '../i18n';
 
 function flatten(text, child) {
   return typeof child === 'string'
