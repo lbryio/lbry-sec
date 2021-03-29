@@ -104,7 +104,7 @@ export default function Home() {
             </p>
           </div>
 
-          <h2 className="content__section-title">Share this story</h2>
+          <h2 className="content__section-title" id="share">Share this story</h2>
           <div className="content__subtitle">
             Post to social media to spread awareness. &nbsp;
             <a
@@ -121,7 +121,7 @@ export default function Home() {
         <Twitter />
 
         <div className="content">
-          <h2 className="content__section-title">Sign the petition</h2>
+          <h2 className="content__section-title" id="petition">Sign the petition</h2>
           <div className="content__subtitle">
             Tell the SEC that cryptocurrency must remain legal
             and free.{' '}
@@ -133,7 +133,7 @@ export default function Home() {
         </div>
 
         <div className="content">
-          <h2 className="content__section-title">Donate</h2>
+          <h2 className="content__section-title" id="donate">Donate</h2>
           <div className="content__subtitle">
             If you want to go far, go together.
           </div>
@@ -183,7 +183,7 @@ export default function Home() {
         </div>
 
         <div className="content">
-          <h2 className="content__section-title">Contact Us</h2>
+          <h2 className="content__section-title" id="contact">Contact Us</h2>
           <p>Press inquiries: <a className="link" href="mailto:press@lbry.com">press@lbry.com</a></p>
           <p>Other email: <a className="link" href="mailto:savecrypto@lbry.com">savecrypto@lbry.com</a></p>
           <p>Twitter: <a className="link" href="https://twitter.com/lbrycom">@LBRYcom</a></p>

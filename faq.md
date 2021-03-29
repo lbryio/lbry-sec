@@ -158,12 +158,12 @@ Email [press@lbry.com](mailto:press@lbry.com).
 
 ### How can I support LBRY Inc in this case?
 
-- Share this story, in your own words, on social media, using the tag #helplbrysavecrypto.
+- [Share this story](/#share) on social media, in your own words, using the tag #helplbrysavecrypto.
   Or you can just share a link to [helplbrysavecrypto.com](https://helplbrysavecrypto.com/).
-- Sign the petition at [helplbrysavecrypto.com](https://helplbrysavecrypto.com/).
-- Donate to our defense fund.
+- Sign the [petition](/#petition).
+- [Donate](/#donate) to our defense fund.
 - If you’re involved in one of the hundreds of other blockchain companies being investigated by the
-  SEC, you can share your story. The SEC doesn’t want you to talk because your silence helps them.
+  SEC, tell your story. **The SEC doesn’t want you to talk because your silence helps them.**
   By talking, we can coordinate our response. Until one of us wins, we’ll continue to be
   digested, bit by bit.
 
