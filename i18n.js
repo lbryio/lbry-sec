@@ -18,7 +18,7 @@ const en = {
   save_crypto: 'SAVE CRYPTO',
   go_home: 'Go Home',
   og_description:
-    'The SEC doesn’t understand blockchain. The claims made in SEC vs. LBRY, Inc. would destroy the United States cryptocurrency industry.',
+    'The SEC doesn’t understand blockchain. The claims made in SEC vs. LBRY would destroy the United States cryptocurrency industry.',
   landing_subtitle:
     'The SEC doesn’t understand blockchain. The claims made in SEC vs. LBRY would destroy the United States cryptocurrency industry.',
   landing_action: 'Help us educate the SEC',
