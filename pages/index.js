@@ -185,6 +185,7 @@ export default function Home() {
         <div className="content">
           <h2 className="content__section-title" id="contact">Contact Us</h2>
           <p>Press inquiries: <a className="link" href="mailto:press@lbry.com">press@lbry.com</a></p>
+          <p>Legal: <a className="link" href="mailto:legal@lbry.com">legal@lbry.com</a></p>
           <p>Other email: <a className="link" href="mailto:savecrypto@lbry.com">savecrypto@lbry.com</a></p>
           <p>Twitter: <a className="link" href="https://twitter.com/lbrycom">@LBRYcom</a></p>
         </div>
