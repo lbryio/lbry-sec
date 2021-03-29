@@ -2,11 +2,12 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { t, m } from '../i18n';
+import { useRouter } from 'next/router';
 
 export function Header(props) {
   const { faqPage } = props;
-
-  const lang = 'en'; // req.query.lang || 'en'
+  const router = useRouter();
+  const lang = router.query.lang || 'en';
 
   function __(message) {
     return t(message, lang);

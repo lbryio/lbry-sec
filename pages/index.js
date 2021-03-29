@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-
 import { Header } from '../component/header';
 import { Twitter } from '../component/twitter';
 import { Email } from '../component/email';
@@ -238,7 +237,7 @@ export default function Home() {
           <h2 className="content__section-title" id="donate">
             {__(m.donate_title)}
           </h2>
-          <div className="content__subtitle">{__(m.contact_subtitle)}</div>
+          <div className="content__subtitle">{__(m.donate_subtitle)}</div>
 
           <div>
             <div className="donate">

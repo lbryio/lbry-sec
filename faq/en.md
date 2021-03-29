@@ -71,9 +71,9 @@ harm or damage as a result of purchasing LBRY Credits.
 
 ### Who is LBRY Inc represented by?
 
-LBRY has hired one of the best law firms in the blockchain space -- [Perkins Coie](https://www.perkinscoie.com/en/). 
+LBRY has hired one of the best law firms in the blockchain space -- [Perkins Coie](https://www.perkinscoie.com/en/).
 Keith Miller and Adam Schuman will represent us at trial. Keith is a former SEC enforcement
-lawyer, and Adam is a former federal prosecutor. Keith and Adam have been named by *Business Insider*
+lawyer, and Adam is a former federal prosecutor. Keith and Adam have been named by _Business Insider_
 as two of the top 20 cryptocurrency lawyers in the country.
 
 ### What’s the timeline?
@@ -82,8 +82,7 @@ LBRY Inc has been under investigation for three years, since May of 2018.
 
 The SEC repeatedly requested documents from LBRY Inc, at times doing so in overbearing and costly
 ways that seemed punitive. If it’s true that LBRY Inc violated the law in
-the ways the SEC alleges, all of the relevant facts were clearly known to the SEC by the fall of
-2018. We’re glad to finally be getting through this painful process and to be allowed to
+the ways the SEC alleges, all of the relevant facts were clearly known to the SEC by the fall of 2018. We’re glad to finally be getting through this painful process and to be allowed to
 express our positions to the public and in court.
 
 The trial will likely not be resolved in 2021.
@@ -146,7 +145,7 @@ Consider an apathetic enforcer whose job review is simply “how many enforcemen
 
 At this time, we do not expect any of these programs to change. Some exchanges may choose to no
 longer allow U.S. customers to exchange LBRY Credits. We do not expect any other changes until the
-case is resolved. Please see our FAQ for a [full list of available exchanges](https://lbry.com/faq/exchanges). 
+case is resolved. Please see our FAQ for a [full list of available exchanges](https://lbry.com/faq/exchanges).
 
 ### Where can I view the full complaint?
 

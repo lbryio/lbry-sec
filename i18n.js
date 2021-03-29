@@ -107,7 +107,70 @@ const en = {
 };
 
 const es = {
-  // landing_action: '...',
+  faq: 'VER PREGUNTAS FRECUENTES',
+  help_lbry: 'AYUDA A LBRY',
+  save_crypto: 'SALVAR CRIPTO',
+  go_home: 'Ir a Inicio',
+  og_description:
+    'La SEC no comprende blockchain. Las afirmaciones hechas en SEC vs LBRY destruirían la industria de las criptomonedas en los Estados Unidos.',
+
+  landing_subtitle:
+    'La SEC no comprende blockchain. Las afirmaciones hechas en SEC vs LBRY destruirían la industria de las criptomonedas en los Estados Unidos.',
+  landing_action: 'Ayúdanos a educar a la SEC',
+
+  summary_title: '¿Cual es el problema?',
+  summary_subtitle:
+    'Toda la industria blockchain está en riesgo en los Estados Unidos. Las grandes tecnologías y Wall St. tendrían más poder y muchas personas podrían perder sus trabajos.',
+
+  p1_a:
+    'La SEC está avanzando en un nuevo estándar agresivo y desastroso que convertiría a casi todos los tokens de blockchain en valores.',
+  p1_b:
+    'Clasificar todos los tokens de blockchain desarrollados activamente como valores será una pesadilla burocrática para los residentes y las empresas de los Estados Unidos que operan en los EE. UU.',
+
+  p2_a:
+    'Bajo este nuevo estándar, casi cualquier token es un valor, incluido Ethereum, que antes era seguro. La naturaleza de la tecnología es que nunca está "terminada".',
+  p2_b:
+    'Este cambio hará que sea mucho más difícil para las nuevas empresas formar nuevas empresas blockchain, provocará una pérdida masiva de puestos de trabajo y obstaculizará el desarrollo de una nueva tecnología crítica. ¡Mientras tanto, la gran tecnología y Wall St. prosperan!',
+
+  share_story_title: 'Comparte esta historia',
+  share_story_subtitle:
+    'Publica en las redes sociales para difundir el conocimiento.',
+
+  twitter_title: '¿Qué dice la gente?',
+
+  petition_title: 'Firma la petición',
+  petition_subtitle:
+    'Dígale a la SEC que la criptomoneda debe seguir siendo legal y gratuita.',
+  petition_link: 'Agrega tu firma',
+
+  read_more_title: 'Lee mas',
+  read_more_subtitle: 'Lea nuestra guía de casos y preguntas frecuentes',
+  read_more_link: 'aquí',
+
+  email_title: 'Mantente informado',
+  email_subtitle:
+    'Le mantendremos informado de las últimas novedades sobre este caso.',
+  email_input_label: 'Correo electrónico',
+  email_input_button: 'Enviar',
+  email_input_button_loading: 'Enviando',
+  email_success: 'Gracias. Te mantendremos informado.',
+  email_error: 'Lo sentimos, ha habido un error. Inténtalo de nuevo.',
+
+  try_lbry_title: 'Prueba LBRY',
+  try_lbry_subtitle:
+    'Si el gobierno y la gran tecnología quieren que se vaya, debe ser bueno.',
+  try_lbry_desktop_link: 'LBRY Desktop',
+  try_lbry_desktop_help: 'descentralizado y de código abierto',
+  try_odysee_help: 'más fácil de usar',
+
+  contact_title: 'Contacta con nosotros',
+  contact_press: 'preguntas de la prensa',
+  contact_legal: 'Legal',
+  contact_other_email: 'Otro correo electrónico',
+  contact_discord: 'Discord (no dirigido por LBRY Inc)',
+
+  donate_title: 'Donar',
+  donate_subtitle: 'Si quieren llegar lejos, vayan juntos.',
 };
 
 const languages = {
