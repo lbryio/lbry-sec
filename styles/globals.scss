@@ -41,7 +41,9 @@ button {
   border: none;
 }
 
-a {
+a,
+button,
+.link {
   color: inherit;
   text-decoration: none;
 
@@ -63,6 +65,10 @@ a {
     margin-right: $spacing-small;
   }
 
+  .link {
+    font-size: 1.5rem;
+  }
+
   @media (min-width: $breakpoint-small) {
     padding: 0 1rem;
   }
@@ -74,6 +80,7 @@ a {
 
 main {
   overflow: hidden;
+  padding-bottom: 5rem;
 }
 
 .title {
@@ -114,7 +121,6 @@ main {
 
 .landing__text {
   margin-top: -2rem;
-  margin-bottom: 3rem;
   margin-left: $spacing-small;
   margin-right: $spacing-small;
   background-color: #31afa1;
@@ -161,13 +167,13 @@ main {
 
   padding: 0.75rem;
   margin-top: 2rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding: 1.5rem;
 
-  transform: skew(-10deg);
+  transform: skew(-5deg);
 
   span {
-    transform: skew(10deg);
+    transform: skew(5deg);
   }
 
   @media (min-width: $breakpoint-small) {
@@ -177,6 +183,7 @@ main {
 
 .content {
   padding: 2rem;
+  padding-bottom: 0;
   background-color: #ffffff;
   color: #000000;
 
@@ -221,20 +228,23 @@ main {
       width: 100%;
     }
   }
+}
 
-  .content__img {
-    position: relative;
-    width: 80%;
-    margin: 3rem 0;
+.content__img {
+  position: relative;
 
-    @media (max-width: $breakpoint-small) {
-      display: none;
-    }
+  @media (max-width: $breakpoint-small) {
+    display: none;
   }
+}
 
-  img {
-    width: 600px;
-  }
+.content__img--question {
+  width: 80%;
+}
+
+.content__img--megaphone {
+  width: 80%;
+  margin: 3rem 0;
 }
 
 .content__subtitle {
@@ -271,7 +281,6 @@ main {
   max-width: 35rem;
   margin: auto;
   font-size: 2rem;
-  margin-top: 4rem;
   padding: 1rem;
   background-color: #fcd34d;
 
@@ -286,6 +295,8 @@ main {
 
   @media (min-width: $breakpoint-small) {
     padding: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 
     h2 {
       font-size: 3rem;
@@ -365,7 +376,7 @@ main {
   display: flex;
   align-items: flex-start;
   margin-left: 100px;
-  animation: slide 240s linear;
+  animation: slide 360s linear;
   animation-fill-mode: forwards;
 }
 
@@ -444,4 +455,41 @@ main {
 .tweet__text {
   margin-top: 1rem;
   font-size: 1rem;
+}
+
+.md {
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+
+    @media (max-width: $breakpoint-small) {
+      font-size: 2.5rem;
+    }
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+
+    @media (max-width: $breakpoint-small) {
+      font-size: 2rem;
+    }
+  }
+
+  h3 {
+    font-size: 2rem;
+
+    @media (max-width: $breakpoint-small) {
+      font-size: 1.5rem;
+    }
+  }
+
+  ul {
+    font-size: 1.5rem;
+  }
+}
+
+.lbry__try {
+  margin-bottom: 1rem;
 }

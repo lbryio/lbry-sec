@@ -10,15 +10,23 @@ export function Twitter() {
         if (res.error) {
           throw Error(res.error);
         }
-        setTweets(res.data.statuses);
+
+        setTweets(
+          res.data.statuses.filter((tweet) => tweet.favorite_count > 5)
+        );
       })
       .catch((err) => {
         setError(true);
       });
   }, []);
 
+  if (!tweets || !(tweets.length > 5)) {
+    return null;
+  }
+
   return (
-    <>
+    <div className="content">
+      <h2 className="content__section-title">What are people saying?</h2>
       <div className="twitter">
         {!error && !tweets && (
           <div className="tweets tweets--static">
@@ -78,6 +86,6 @@ export function Twitter() {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 }

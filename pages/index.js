@@ -2,15 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import { Header } from '../component/header';
 import { Twitter } from '../component/twitter';
-import { Stripe } from '../component/stripe';
+import { Email } from '../component/email';
 import { t, m } from '../i18n';
 import { tracker } from '../analytics';
 
 export default function Home() {
-  const [email, setEmail] = React.useState('');
-  const [emailLoading, setEmailLoading] = React.useState(false);
-  const [emailError, setEmailError] = React.useState();
-  const [emailSuccess, setEmailSuccess] = React.useState();
   const lang = 'en'; // req.query.lang || 'en'
 
   React.useEffect(() => {
@@ -19,38 +15,6 @@ export default function Home() {
 
   function __(message) {
     return t(message, lang);
-  }
-
-  function handleEmailSubmit(e) {
-    e.preventDefault();
-
-    if (!email) {
-      return;
-    }
-
-    setEmailError(false);
-    setEmailSuccess(false);
-    setEmailLoading(true);
-
-    fetch('/api/email', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        email,
-      }),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        setEmailLoading(false);
-        setEmailSuccess(true);
-      })
-      .catch(() => {
-        setEmailLoading(false);
-        setEmailSuccess(false);
-        setEmailError(true);
-      });
   }
 
   return (
@@ -117,16 +81,16 @@ export default function Home() {
               operating in the US.
             </p>
 
-            <div className="content__img">
+            <div className="content__img content__img--question">
               <Image
-                src="/machine.png"
+                src="/question.png"
                 alt="Image of LBRY cartoon"
                 layout="fill"
               />
             </div>
           </div>
           <div className="content__section">
-            <div className="content__img">
+            <div className="content__img content__img--megaphone">
               <Image
                 className="content__img"
                 src="/megaphone.png"
@@ -162,10 +126,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="content">
-          <h2 className="content__section-title">What are people saying?</h2>
-          <Twitter />
-        </div>
+        <Twitter />
 
         <div className="content">
           <h2 className="content__section-title">Sign the petition</h2>
@@ -179,38 +140,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="email">
-          <h2 className="content__section-title">Stay up to date</h2>
-          <div className="email__subtitle">
-            We will keep you up to date with any information we receive about
-            this case.
-          </div>
-
-          <label htmlFor="email">Email</label>
-          <form className="email__group" onSubmit={handleEmailSubmit}>
-            <input
-              type="email"
-              name="email"
-              placeholder="ihatecensorship@protonmail.com"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-            <button disabled={!email || emailLoading}>
-              {emailLoading ? 'Submitting' : 'Submit'}
-            </button>
-          </form>
-
-          {emailSuccess && (
-            <div className="email__success">
-              Thank you! We will keep you in the loop.
-            </div>
-          )}
-          {emailError && (
-            <div className="email__success">
-              Sorry, there was an error. Please try again.
-            </div>
-          )}
-        </div>
+        <Email />
 
         <div className="content">
           <h2 className="content__section-title">Try LBRY</h2>
@@ -218,14 +148,18 @@ export default function Home() {
             If the government and big tech want it gone, it must be good.
           </div>
           <div>
-            <a href="https://lbry.com/get" className="link">
-              LBRY Desktop
-            </a>{' '}
-            (decentralized and open-source)
-            <a href="https://odysee.com" className="link">
-              Odysee
-            </a>{' '}
-            (easiest to use)
+            <div className="lbry__try">
+              <a href="https://lbry.com/get" className="link">
+                LBRY Desktop
+              </a>{' '}
+              (decentralized and open-source)
+            </div>
+            <div className="lbry__try">
+              <a href="https://odysee.com" className="link">
+                Odysee
+              </a>{' '}
+              (easiest to use)
+            </div>
           </div>
         </div>
       </main>

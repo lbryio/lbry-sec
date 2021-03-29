@@ -25,7 +25,7 @@ export function Header(props) {
         />
         <meta
           property="og:description"
-          content="The SEC doesn’t understand blockchain or crypto. They’re saying LBC is a security, it’s not!"
+          content="The SEC doesn’t understand blockchain. The claims made in SEC vs. LBRY, Inc. would destroy the United States cryptocurrency industry."
           key="description"
         />
       </Head>
@@ -37,8 +37,8 @@ export function Header(props) {
 
         {!faqPage && (
           <div className="header__links">
-            <Link className="link" href="/faq">
-              {__(m.faq)}
+            <Link href="/faq">
+              <span className="link">FAQ</span>
             </Link>
           </div>
         )}

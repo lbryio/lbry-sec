@@ -24,7 +24,7 @@ export default (req, res) => {
   return new Promise((resolve, reject) => {
     client.get(
       'search/tweets',
-      { q: '#lbry', count: 50 },
+      { q: '#HelpLBRYSaveCrypto', count: 100 },
       function (error, tweets, response) {
         if (error) {
           res.statusCode = 500;
