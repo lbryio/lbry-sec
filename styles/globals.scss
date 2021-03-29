@@ -505,9 +505,12 @@ main {
     font-size: 1.5rem;
   }
 
+  li:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
+
   a {
     color: #e2048e;
-    //font-weight: 600;
     border-bottom: 1px solid #e2048e;
   }
 }
