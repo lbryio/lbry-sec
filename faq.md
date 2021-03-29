@@ -171,5 +171,4 @@ Email [press@lbry.com](mailto:press@lbry.com).
 
 - Follow #helplbrysavecrypto on social media and [@lbrycom](https://twitter.com/lbrycom) on twitter.
 - Updates will be posted to the [@lbry](https://odysee.com/@lbry) channel on LBRY.
-- Make [helplbrysavecrypto.com](https://helplbrysavecrypto.com/) your homepage (or check it regularly).
 - Subscribe for updates below 👇

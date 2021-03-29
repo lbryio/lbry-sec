@@ -25,15 +25,13 @@ export function Header(props) {
         />
         <meta
           property="og:description"
-          content={m.og_description}
+          content={__(m.og_description)}
           key="description"
         />
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content="@LBRYcom" />
         <meta name="twitter:title" content="Help LBRY Save Crypto" />
-        {/*<meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />*/}
-        {/*<meta name="twitter:description" content={m.og_description} />*/}
 
       </Head>
 
