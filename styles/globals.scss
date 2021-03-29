@@ -86,6 +86,7 @@ main {
 .title {
   font-weight: bolder;
   font-size: 1.5rem;
+  cursor: pointer;
 
   @media (min-width: $breakpoint-small) {
     font-size: 2rem;
