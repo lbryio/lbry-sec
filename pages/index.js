@@ -153,7 +153,7 @@ export default function Home() {
             <tr>
               <th>LBC</th>
               <td>
-                <code>Lbc1qwpt9caexxzqlpw07h7jyh28r60hf86t9xn6flk</code>
+                <code>lbc1qwpt9caexxzqlpw07h7jyh28r60hf86t9xn6flk</code>
               </td>
             </tr>
           </table>
