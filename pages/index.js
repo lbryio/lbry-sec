@@ -64,13 +64,10 @@ export default function Home() {
 
           <div className="content__section">
             <p>
-              The SEC is advancing an aggressive and disastrous new standard
-              that would make almost all blockchain tokens securities.
+              {__(m.p1_a)}
               <br />
               <br />
-              Classifying all actively-developed blockchain tokens as securities will be a
-              bureaucratic nightmare for United States residents and businesses
-              operating in the US.
+              {__(m.p1_b)}
             </p>
 
             <div className="content__img content__img--question">
@@ -92,22 +89,19 @@ export default function Home() {
             </div>
 
             <p>
-              Under this new standard, almost any token is a security, including
-              the previously safe Ethereum. The nature of technology is that it is never "finished"!
+              {__(m.p2_a)}
               <br />
               <br />
-              This change will make it much harder for startups to form new
-              blockchain companies, cause massive job loss, and stunt the
-              development of a critical new technology. All the while, big tech
-              and Wall St. prosper!
+              {__(m.p2_b)}
             </p>
           </div>
 
           <h2 className="content__section-title" id="share">
-            Share this story
+            {__(m.share_story_title)}
           </h2>
           <div className="content__subtitle">
-            Post to social media to spread awareness. &nbsp;
+            {__(m.share_story_subtitle)}
+            &nbsp;
             <a
               href="https://twitter.com/intent/tweet?text=LBRY%20and%20cryptocurrencies%20are%20useful%20technologies%20that%20must%20remain%20legal%20and%20free%20%23HelpLBRYSaveCrypto%0A%0Awww.helplbrysavecrypto.com"
               className="link"
@@ -123,12 +117,13 @@ export default function Home() {
 
         <div className="content">
           <h2 className="content__section-title" id="petition">
-            Sign the petition
+            {__(m.petition_title)}
           </h2>
           <div className="content__subtitle">
-            Tell the SEC that cryptocurrency must remain legal and free.{' '}
+            {__(m.petition_subtitle)}
+            &nbsp;
             <a className="link" href="https://www.change.org/p/28064277">
-              Add your signature
+              {__(m.petition_link)}
             </a>
             .
           </div>
@@ -136,18 +131,19 @@ export default function Home() {
 
         <div className="content">
           <h2 className="content__section-title" id="petition">
-            Read more
+            {__(m.read_more_title)}
           </h2>
           <div className="content__subtitle">
-            Read our case guide and FAQ{' '}
+            {__(m.read_more_subtitle)}
+            &nbsp;
             <a className="link" href="/faq">
-              here
+              {__(m.read_more_link)}
             </a>
             .
           </div>
         </div>
 
-        <Email />
+        <Email i18n={__} />
 
         <div className="content">
           <h2 className="content__section-title">Try LBRY</h2>

@@ -1,6 +1,7 @@
 import React from 'react';
+import { m } from '../i18n';
 
-export function Email() {
+export function Email({ i18n }) {
   const [email, setEmail] = React.useState('');
   const [emailLoading, setEmailLoading] = React.useState(false);
   const [emailError, setEmailError] = React.useState();
@@ -40,12 +41,10 @@ export function Email() {
 
   return (
     <div className="email">
-      <h2 className="content__section-title">Stay Informed</h2>
-      <div className="email__subtitle">
-        We will keep you up to date with the latest on this case.
-      </div>
+      <h2 className="content__section-title">{i18n(m.email_title)}</h2>
+      <div className="email__subtitle">{i18n(m.email_subtitle)}</div>
 
-      <label htmlFor="email">Email</label>
+      <label htmlFor="email">{i18n(m.email_input_label)}</label>
       <form className="email__group" onSubmit={handleEmailSubmit}>
         <input
           type="email"
@@ -55,19 +54,17 @@ export function Email() {
           onChange={(e) => setEmail(e.target.value)}
         />
         <button disabled={!email || emailLoading}>
-          {emailLoading ? 'Submitting' : 'Submit'}
+          {emailLoading
+            ? i18n(m.email_input_button_loading)
+            : i18n(m.email_input_button)}
         </button>
       </form>
 
       {emailSuccess && (
-        <div className="email__success">
-          Thank you! We will keep you in the loop.
-        </div>
+        <div className="email__success">{i18n(m.email_success)}</div>
       )}
       {emailError && (
-        <div className="email__success">
-          Sorry, there was an error. Please try again.
-        </div>
+        <div className="email__success">{i18n(m.email_error)}</div>
       )}
     </div>
   );
