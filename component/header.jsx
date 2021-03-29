@@ -16,7 +16,7 @@ export function Header(props) {
     <>
       <Head>
         <title>{__(m.title)}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/lbc.png" />
 
         <meta
           property="og:image"
