@@ -1,6 +1,7 @@
 import React from 'react';
+import { m } from '../i18n';
 
-export function Twitter() {
+export function Twitter({ i18n }) {
   const [tweets, setTweets] = React.useState();
   const [error, setError] = React.useState();
   React.useEffect(() => {
@@ -28,7 +29,7 @@ export function Twitter() {
 
   return (
     <div className="content">
-      <h2 className="content__section-title">What are people saying?</h2>
+      <h2 className="content__section-title">{i18n(m.twitter_title)}</h2>
       <div className="twitter">
         {!error && !tweets && (
           <div className="tweets tweets--static">

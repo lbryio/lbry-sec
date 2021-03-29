@@ -27,6 +27,19 @@ export const m = {
   email_input_button_loading: 'email_input_button_loading',
   email_success: 'email_success',
   email_error: 'email_error',
+  try_lbry_title: 'try_lbry_title',
+  try_lbry_subtitle: 'try_lbry_subtitle',
+  try_lbry_desktop_link: 'try_lbry_desktop_link',
+  try_lbry_desktop_help: 'try_lbry_desktop_help',
+  try_odysee_help: 'try_odysee_help',
+  contact_title: 'contact_title',
+  contact_press: 'contact_press',
+  contact_legal: 'contact_legal',
+  contact_other_email: 'contact_other_email',
+  contact_discord: 'contact_discord',
+
+  donate_title: 'donate_title',
+  donate_subtitle: 'donate_subtitle',
 };
 
 const en = {
@@ -58,6 +71,8 @@ const en = {
   share_story_title: 'Share this story',
   share_story_subtitle: 'Post to social media to spread awareness.',
 
+  twitter_title: 'What are people saying?',
+
   petition_title: 'Sign the petition',
   petition_subtitle:
     'Tell the SEC that cryptocurrency must remain legal and free.',
@@ -74,6 +89,22 @@ const en = {
   email_input_button_loading: 'Submitting',
   email_success: 'Thank you! We will keep you in the loop.',
   email_error: 'Sorry, there was an error. Please try again.',
+
+  try_lbry_title: 'Try LBRY',
+  try_lbry_subtitle:
+    'If the government and big tech want it gone, it must be good.',
+  try_lbry_desktop_link: 'LBRY Desktop',
+  try_lbry_desktop_help: 'decentralized and open-source',
+  try_odysee_help: 'easiest to use',
+
+  contact_title: 'Contact us',
+  contact_press: 'Press inquiries',
+  contact_legal: 'Legal',
+  contact_other_email: 'Other email',
+  contact_discord: 'Discord (not run by LBRY Inc)',
+
+  donate_title: 'Donate',
+  donate_subtitle: 'If you want to go far, go together.',
 };
 
 const es = {};

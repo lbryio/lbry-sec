@@ -146,44 +146,42 @@ export default function Home() {
         <Email i18n={__} />
 
         <div className="content">
-          <h2 className="content__section-title">Try LBRY</h2>
-          <div className="content__subtitle">
-            If the government and big tech want it gone, it must be good.
-          </div>
+          <h2 className="content__section-title">{__(m.try_lbry_title)}</h2>
+          <div className="content__subtitle">{__(m.try_lbry_subtitle)}</div>
           <p>
             <div className="lbry__try">
               <a href="https://lbry.com/get" className="link">
-                LBRY Desktop
+                {__(m.try_lbry_desktop_link)}
               </a>{' '}
-              (decentralized and open-source)
+              ({__(m.try_lbry_desktop_help)})
             </div>
             <div className="lbry__try">
               <a href="https://odysee.com" className="link">
                 Odysee
               </a>{' '}
-              (easiest to use)
+              ({__(m.try_odysee_help)})
             </div>
           </p>
         </div>
 
         <div className="content">
           <h2 className="content__section-title" id="contact">
-            Contact Us
+            {__(m.contact_title)}
           </h2>
           <p>
-            Press inquiries:{' '}
+            {__(m.contact_press)}:{' '}
             <a className="link" href="mailto:press@lbry.com">
               press@lbry.com
             </a>
           </p>
           <p>
-            Legal:{' '}
+            {__(m.contact_legal)}:{' '}
             <a className="link" href="mailto:legal@lbry.com">
               legal@lbry.com
             </a>
           </p>
           <p>
-            Other email:{' '}
+            {__(m.contact_other_email)}:{' '}
             <a className="link" href="mailto:savecrypto@lbry.com">
               savecrypto@lbry.com
             </a>
@@ -195,7 +193,7 @@ export default function Home() {
             </a>
           </p>
           <p>
-            Discord (not run by LBRY Inc):{' '}
+            {__(m.contact_discord)}:{' '}
             <a className="link" href="https://chat.lbry.org">
               LBRY Discord
             </a>
@@ -204,11 +202,9 @@ export default function Home() {
 
         <div className="content">
           <h2 className="content__section-title" id="donate">
-            Donate
+            {__(m.donate_title)}
           </h2>
-          <div className="content__subtitle">
-            If you want to go far, go together.
-          </div>
+          <div className="content__subtitle">{__(m.contact_subtitle)}</div>
 
           <div>
             <div className="donate">
