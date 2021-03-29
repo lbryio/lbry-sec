@@ -81,11 +81,11 @@ as two of the top 20 cryptocurrency lawyers in the country.
 
 LBRY Inc has been under investigation for three years, since May of 2018.
 
-The SEC repeatedly requested documents from LBRY Inc at times doing so in overbearing and costly
-ways that could jeopardize the survival of LBRY Inc If it’s true that LBRY Inc violated the law in
+The SEC repeatedly requested documents from LBRY Inc, at times doing so in overbearing and costly
+ways that seemed punitive. If it’s true that LBRY Inc violated the law in
 the ways the SEC alleges, all of the relevant facts were clearly known to the SEC by the fall of
-2018. We’re glad to finally be getting through this painful process and finally to be allowed to
-express our positions to the public and in Court.
+2018. We’re glad to finally be getting through this painful process and to be allowed to
+express our positions to the public and in court.
 
 The trial will likely not be resolved in 2021.
 
