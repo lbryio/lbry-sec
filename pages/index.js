@@ -104,7 +104,9 @@ export default function Home() {
             </p>
           </div>
 
-          <h2 className="content__section-title" id="share">Share this story</h2>
+          <h2 className="content__section-title" id="share">
+            Share this story
+          </h2>
           <div className="content__subtitle">
             Post to social media to spread awareness. &nbsp;
             <a
@@ -121,10 +123,11 @@ export default function Home() {
         <Twitter />
 
         <div className="content">
-          <h2 className="content__section-title" id="petition">Sign the petition</h2>
+          <h2 className="content__section-title" id="petition">
+            Sign the petition
+          </h2>
           <div className="content__subtitle">
-            Tell the SEC that cryptocurrency must remain legal
-            and free.{' '}
+            Tell the SEC that cryptocurrency must remain legal and free.{' '}
             <a className="link" href="https://www.change.org/p/28064277">
               Add your signature
             </a>
@@ -133,30 +136,27 @@ export default function Home() {
         </div>
 
         <div className="content">
-          <h2 className="content__section-title" id="donate">Donate</h2>
+          <h2 className="content__section-title" id="donate">
+            Donate
+          </h2>
           <div className="content__subtitle">
             If you want to go far, go together.
           </div>
-          <table className="content__table">
-            <tr>
-              <th>BTC</th>
-              <td>
-                <code>bc1qtfylps0guegw83el0tn3c7s35cyy728fskk6a8</code>
-              </td>
-            </tr>
-            <tr>
-              <th>ETH & ERC</th>
-              <td>
-                <code>0x13Dd57244116Ae29fd4346436494AAF4C72c5e84</code>
-              </td>
-            </tr>
-            <tr>
-              <th>LBC</th>
-              <td>
-                <code>lbc1qwpt9caexxzqlpw07h7jyh28r60hf86t9xn6flk</code>
-              </td>
-            </tr>
-          </table>
+
+          <div>
+            <div className="donate">
+              <div>BTC</div>
+              <code>bc1qtfylps0guegw83el0tn3c7s35cyy728fskk6a8</code>
+            </div>
+            <div className="donate">
+              <div>ETH & ERC</div>
+              <code>0x13Dd57244116Ae29fd4346436494AAF4C72c5e84</code>
+            </div>
+            <div className="donate">
+              <div>LBC</div>
+              <code>lbc1qwpt9caexxzqlpw07h7jyh28r60hf86t9xn6flk</code>
+            </div>
+          </div>
         </div>
 
         <Email />
@@ -183,11 +183,33 @@ export default function Home() {
         </div>
 
         <div className="content">
-          <h2 className="content__section-title" id="contact">Contact Us</h2>
-          <p>Press inquiries: <a className="link" href="mailto:press@lbry.com">press@lbry.com</a></p>
-          <p>Legal: <a className="link" href="mailto:legal@lbry.com">legal@lbry.com</a></p>
-          <p>Other email: <a className="link" href="mailto:savecrypto@lbry.com">savecrypto@lbry.com</a></p>
-          <p>Twitter: <a className="link" href="https://twitter.com/lbrycom">@LBRYcom</a></p>
+          <h2 className="content__section-title" id="contact">
+            Contact Us
+          </h2>
+          <p>
+            Press inquiries:{' '}
+            <a className="link" href="mailto:press@lbry.com">
+              press@lbry.com
+            </a>
+          </p>
+          <p>
+            Legal:{' '}
+            <a className="link" href="mailto:legal@lbry.com">
+              legal@lbry.com
+            </a>
+          </p>
+          <p>
+            Other email:{' '}
+            <a className="link" href="mailto:savecrypto@lbry.com">
+              savecrypto@lbry.com
+            </a>
+          </p>
+          <p>
+            Twitter:{' '}
+            <a className="link" href="https://twitter.com/lbrycom">
+              @LBRYcom
+            </a>
+          </p>
         </div>
       </main>
     </div>

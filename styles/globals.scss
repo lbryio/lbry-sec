@@ -231,13 +231,35 @@ main {
   }
 }
 
-.content__table {
-  border-collapse: collapse;
+.donate {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 1.2rem;
-  margin-bottom: 3rem;
-  th {
-    padding-right: 1rem;
+
+  :first-child {
+    font-weight: bold;
+    margin-right: 1rem;
+    width: 10rem;
     text-align: right;
+  }
+
+  &:last-child {
+    margin-bottom: 3rem;
+  }
+
+  @media (max-width: $breakpoint-small) {
+    flex-direction: column;
+
+    :first-child {
+      text-align: left;
+    }
+
+    :nth-child(2) {
+      margin-left: -15px;
+      margin-top: 0.5rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.8rem;
+    }
   }
 }
 
