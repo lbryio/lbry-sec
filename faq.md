@@ -34,8 +34,8 @@ continue.
 ### What are the specific charges?
 
 Simply put, the SEC believes that the LBRY Credits are securities and should have been registered
-with the SEC prior to selling. This case is about overregulation. On a positive note, the SEC is not
-alleging fraud, and is not charging any individuals.
+with the SEC prior to selling. This case is about overregulation. The SEC is not
+alleging fraud and is not charging any individuals.
 
 However, the SEC believes that, at a minimum, the following transactions were unregistered
 securities offerings:
@@ -45,7 +45,7 @@ securities offerings:
 - Several hundred thousand dollars worth of Credit sales to Flipside Crypto in 2017 and 2018,
   despite Flipside explicitly saying they’re for use on the network.
 - Several million dollars worth of Credit sales on exchanges, over a period of several years, only
-  after the LBRY protocol was completely functional and had been in use for over a year.
+  after the LBRY protocol was completely functional and had been in use for over a year, and always a small portion of private sales.
 
 At times, the SEC has made representations that even tipping $.25 worth of Credits for a clever GIF
 is an unregistered security transaction that must be registered and tracked. However, it’s unclear
@@ -120,14 +120,13 @@ We repeatedly asked the SEC for guidance on how it would be possible to run the 
 SEC said that they could not tell us how to operate legally, but could only tell us that we were
 breaking the law.
 
-### Why are the implications for the blockchain and tech industry?
+### What are the implications for the blockchain and tech industry?
 
 The implications of this case are extremely dire for the blockchain and technology industry in the
 United States. The SEC is alleging that any entity that transfers a blockchain token while
 simultaneously working or funding work on it is performing a security offering. Under that standard,
 every blockchain technology that is actively developed faces existential threat, so long as that
-development is either funded by a token holder, or if the developers themselves hold the token. Only
-a complete segregation of development and token holdings would be allowed under this standard.
+development is either funded by a token holder, even if indirectly, or if the developers themselves hold the token.
 
 This case is also chilling for the start-up scene in the United States more generally. We’ve acted
 in extremely good-faith, attempted to follow all the rules, and complied with the SEC at every turn.
@@ -136,11 +135,13 @@ cutting-edge fields frequently have unclear regulations.
 
 ### Why are they charging LBRY Inc when there are many other companies with worse facts, or that are outright frauds and scams?
 
-We would love to know the actual answer to this question.Our best guess is that by acting in such a
+We would love to know the actual answer to this question. Our best guess is that by acting in such a
 radically transparent manner, we made ourselves an easy target. We fear that the SEC is more intent
 on rigid and overly strict enforcement of their interpretation of the rules, than seeking to find
 constructive solutions that promote innovation and business within a reasonable regulatory
 framework.
+
+Consider an apathetic enforcer whose job review is simply “how many enforcements did you produce”. Are they more incentivized to go after what is at-hand, or what is actually wrong?
 
 ### Will LBRY Credit distribution, rewards program, or anything else change as a result of this case?
 
