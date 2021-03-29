@@ -25,7 +25,7 @@ export default function Faq() {
   const lang = router.query.lang || 'en';
 
   React.useEffect(() => {
-    tracker.trackPageView();
+    tracker.trackPageView(window.location.pathname);
   }, []);
 
   function __(message) {
