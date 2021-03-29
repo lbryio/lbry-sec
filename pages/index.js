@@ -87,7 +87,8 @@ export default function Home() {
             tech and Wall St. would have more power and many people could lose
             their jobs!
           </div>
-          <div>
+
+          {/* <div>
             <small>
               Warning / Enticement: this video is more entertainment than
               education, read the
@@ -103,7 +104,7 @@ export default function Home() {
               src="https://odysee.com/$/embed/odysee/7a416c44a6888d94fe045241bbac055c726332aa?r=A6zE8KtZ6VVk268xANdFViL8znbDXL4F"
               allowFullScreen
             />
-          </div>
+          </div> */}
 
           <div className="content__section">
             <p>
@@ -131,9 +132,6 @@ export default function Home() {
                 src="/megaphone.png"
                 alt="Image of LBRY cartoon"
                 layout="fill"
-
-                //   height={100}
-                //   width={100}
               />
             </div>
 
