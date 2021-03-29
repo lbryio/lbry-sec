@@ -1,5 +1,4 @@
 export const m = {
-  title: 'title',
   faq: 'faq',
   help_lbry: 'help_lbry',
   save_crypto: 'save_crypto',
@@ -12,7 +11,6 @@ export const m = {
 };
 
 const en = {
-  title: 'LBRY, THE SEC, & THE FUTURE OF CRYPTO',
   faq: 'VIEW FAQ',
   help_lbry: 'HELP LBRY',
   save_crypto: 'SAVE CRYPTO',
