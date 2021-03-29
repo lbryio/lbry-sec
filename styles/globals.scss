@@ -44,9 +44,13 @@ button {
 a {
   color: inherit;
   text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
-header {
+.header {
   height: 8vh;
   background-color: white;
   color: black;
@@ -62,6 +66,10 @@ header {
   @media (min-width: $breakpoint-small) {
     padding: 0 1rem;
   }
+}
+
+.header--faq {
+  border-bottom: 1px solid black;
 }
 
 main {

@@ -1,8 +1,6 @@
 import React from 'react';
-import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link';
-
+import { Header } from '../component/header';
 import { Twitter } from '../component/twitter';
 import { Stripe } from '../component/stripe';
 import { t, m } from '../i18n';
@@ -57,31 +55,7 @@ export default function Home() {
 
   return (
     <div>
-      <Head>
-        <title>{__(m.title)}</title>
-        <link rel="icon" href="/favicon.ico" />
-
-        <meta
-          property="og:image"
-          content="https://i.imgur.com/pnU7PJz.jpg"
-          key="image"
-        />
-        <meta
-          property="og:description"
-          content="The SEC doesn’t understand blockchain or crypto. They’re saying LBC is a security, it’s not!"
-          key="description"
-        />
-      </Head>
-
-      <header>
-        <span className="title">{__(m.title)}</span>
-
-        <div className="header__links">
-          <Link className="link" href="/faq">
-            {__(m.faq)}
-          </Link>
-        </div>
-      </header>
+      <Header />
 
       <main>
         <div className="landing__img-container">
