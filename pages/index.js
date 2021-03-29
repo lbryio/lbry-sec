@@ -151,30 +151,6 @@ export default function Home() {
         <Email />
 
         <div className="content">
-          <h2 className="content__section-title" id="donate">
-            Donate
-          </h2>
-          <div className="content__subtitle">
-            If you want to go far, go together.
-          </div>
-
-          <div>
-            <div className="donate">
-              <div>BTC</div>
-              <code>bc1qtfylps0guegw83el0tn3c7s35cyy728fskk6a8</code>
-            </div>
-            <div className="donate">
-              <div>ETH & ERC</div>
-              <code>0x13Dd57244116Ae29fd4346436494AAF4C72c5e84</code>
-            </div>
-            <div className="donate">
-              <div>LBC</div>
-              <code>lbc1qwpt9caexxzqlpw07h7jyh28r60hf86t9xn6flk</code>
-            </div>
-          </div>
-        </div>
-
-        <div className="content">
           <h2 className="content__section-title">Try LBRY</h2>
           <div className="content__subtitle">
             If the government and big tech want it gone, it must be good.
@@ -223,6 +199,30 @@ export default function Home() {
               @LBRYcom
             </a>
           </p>
+        </div>
+
+        <div className="content">
+          <h2 className="content__section-title" id="donate">
+            Donate
+          </h2>
+          <div className="content__subtitle">
+            If you want to go far, go together.
+          </div>
+
+          <div>
+            <div className="donate">
+              <div>BTC</div>
+              <code>bc1qtfylps0guegw83el0tn3c7s35cyy728fskk6a8</code>
+            </div>
+            <div className="donate">
+              <div>ETH & ERC</div>
+              <code>0x13Dd57244116Ae29fd4346436494AAF4C72c5e84</code>
+            </div>
+            <div className="donate">
+              <div>LBC</div>
+              <code>lbc1qwpt9caexxzqlpw07h7jyh28r60hf86t9xn6flk</code>
+            </div>
+          </div>
         </div>
       </main>
     </div>
