@@ -172,7 +172,7 @@ main {
   background-color: #ffffff;
   color: #000000;
 
-  h2 {
+  .content__section-title {
     font-size: 2rem;
     font-weight: 900;
 
@@ -190,7 +190,7 @@ main {
       padding-top: 2rem;
     }
 
-    h2 {
+    .content__section-title {
       font-size: 4rem;
     }
   }

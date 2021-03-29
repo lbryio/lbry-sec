@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { Twitter } from '../component/twitter';
 import { Stripe } from '../component/stripe';
@@ -76,14 +77,9 @@ export default function Home() {
         <span className="title">{__(m.title)}</span>
 
         <div className="header__links">
-          <a
-            className="link"
-            href="https://docs.google.com/document/d/1QYSruKLjStWZOTTmkatfUZaCdp4lHWwk6TmUvytzTx0/edit#"
-            rel="noreferrer noopener"
-            target="_blannk"
-          >
+          <Link className="link" href="/faq">
             {__(m.faq)}
-          </a>
+          </Link>
         </div>
       </header>
 
@@ -111,7 +107,7 @@ export default function Home() {
         </div>
 
         <div className="content">
-          <h2>What’s the big deal?</h2>
+          <h2 className="content__section-title">What’s the big deal?</h2>
           <div className="content__subtitle">
             The entire blockchain industry is at risk in the United States. Big
             tech and Wall St. would have more power and many people could lose
@@ -180,7 +176,7 @@ export default function Home() {
             </p>
           </div>
 
-          <h2>Share this story</h2>
+          <h2 className="content__section-title">Share this story</h2>
           <div className="content__subtitle">
             Post to social media to spread awareness. &nbsp;
             <a
@@ -195,12 +191,12 @@ export default function Home() {
         </div>
 
         <div className="content">
-          <h2>What are people saying?</h2>
+          <h2 className="content__section-title">What are people saying?</h2>
           <Twitter />
         </div>
 
         <div className="content">
-          <h2>Sign the petition</h2>
+          <h2 className="content__section-title">Sign the petition</h2>
           <div className="content__subtitle">
             Tell Gary Gensler and the SEC that cryptocurrency must remain legal
             and free.{' '}
@@ -212,7 +208,7 @@ export default function Home() {
         </div>
 
         <div className="email">
-          <h2>Stay up to date</h2>
+          <h2 className="content__section-title">Stay up to date</h2>
           <div className="email__subtitle">
             We will keep you up to date with any information we receive about
             this case.
@@ -245,7 +241,7 @@ export default function Home() {
         </div>
 
         <div className="content">
-          <h2>Try LBRY</h2>
+          <h2 className="content__section-title">Try LBRY</h2>
           <div className="content__subtitle">
             If the government and big tech want it gone, it must be good.
           </div>

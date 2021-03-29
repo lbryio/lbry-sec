@@ -1,11 +1,10 @@
 module.exports = {
-  async redirects() {
-    return [
-      {
-        source: '/faq',
-        destination: 'https://odysee.com/@OdyseeHelp/faq',
-        permanent: false,
-      },
-    ];
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.md$/,
+      use: 'raw-loader',
+    });
+
+    return config;
   },
 };
