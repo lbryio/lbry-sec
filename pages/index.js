@@ -68,7 +68,7 @@ export default function Home() {
               that would make almost all blockchain tokens securities.
               <br />
               <br />
-              Classifying all blockchain tokens as securities will be a
+              Classifying all actively-developed blockchain tokens as securities will be a
               bureaucratic nightmare for United States residents and businesses
               operating in the US.
             </p>
@@ -93,8 +93,7 @@ export default function Home() {
 
             <p>
               Under this new standard, almost any token is a security, including
-              the previously safe ETH. The SEC additionally claims that token
-              sales are sales of securities too!
+              the previously safe Ethereum. The nature of technology is that it is never "finished"!
               <br />
               <br />
               This change will make it much harder for startups to form new
