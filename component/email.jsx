@@ -40,10 +40,9 @@ export function Email() {
 
   return (
     <div className="email">
-      <h2 className="content__section-title">Stay up to date</h2>
+      <h2 className="content__section-title">Stay Informed</h2>
       <div className="email__subtitle">
-        We will keep you up to date with any information we receive about this
-        case.
+        We will keep you up to date with the latest on this situation.
       </div>
 
       <label htmlFor="email">Email</label>
@@ -51,7 +50,7 @@ export function Email() {
         <input
           type="email"
           name="email"
-          placeholder="ihatecensorship@protonmail.com"
+          placeholder="savecrypto@protonmail.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
