@@ -109,7 +109,7 @@ export default function Home() {
               href="https://twitter.com/intent/tweet?text=LBRY%20and%20cryptocurrencies%20are%20useful%20technologies%20that%20must%20remain%20legal%20and%20free%20%23HelpLBRYSaveCrypto%0A%0Awww.helplbrysavecrypto.com"
               className="link"
               rel="noreferrer noopener"
-              target="_blannk"
+              target="_blank"
             >
               #HelpLBRYSaveCrypto
             </a>
@@ -125,7 +125,12 @@ export default function Home() {
           <div className="content__subtitle">
             {__(m.petition_subtitle)}
             &nbsp;
-            <a className="link" href="https://www.change.org/p/28064277">
+            <a
+              className="link"
+              href="https://www.change.org/p/28064277"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
               {__(m.petition_link)}
             </a>
             .
@@ -154,7 +159,12 @@ export default function Home() {
 
           <div className="lbry__try">
             <p>
-              <a href="https://lbry.com/get" className="link">
+              <a
+                href="https://lbry.com/get"
+                className="link"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
                 {__(m.try_lbry_desktop_link)}
               </a>{' '}
               ({__(m.try_lbry_desktop_help)})
@@ -162,7 +172,12 @@ export default function Home() {
           </div>
           <div className="lbry__try">
             <p>
-              <a href="https://odysee.com" className="link">
+              <a
+                href="https://odysee.com"
+                className="link"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
                 Odysee
               </a>{' '}
               ({__(m.try_odysee_help)})
@@ -194,13 +209,23 @@ export default function Home() {
           </p>
           <p>
             Twitter:{' '}
-            <a className="link" href="https://twitter.com/lbrycom">
+            <a
+              className="link"
+              href="https://twitter.com/lbrycom"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
               @LBRYcom
             </a>
           </p>
           <p>
             {__(m.contact_discord)}:{' '}
-            <a className="link" href="https://chat.lbry.org">
+            <a
+              className="link"
+              href="https://chat.lbry.org"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
               LBRY Discord
             </a>
           </p>

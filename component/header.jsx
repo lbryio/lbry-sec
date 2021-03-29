@@ -18,6 +18,8 @@ export function Header(props) {
         <title>{__(m.title)}</title>
         <link rel="icon" href="/lbc.png" />
 
+        <meta property="og:title" content="Help LBRY Save Crypto" key="title" />
+
         <meta
           property="og:image"
           content="https://i.imgur.com/onVjlEW.jpg"
