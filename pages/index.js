@@ -37,9 +37,12 @@ export default function Home() {
           </h1>
           <div className="landing__subtitle">
             <div>{__(m.landing_subtitle)}</div>
+{ /*
             <div className="landing__standout">
               <span>{__(m.landing_action)}</span>
             </div>
+
+*/ }
           </div>
         </div>
 
