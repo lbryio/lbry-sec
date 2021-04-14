@@ -21,6 +21,7 @@ export const m = {
   read_more_title: 'read_more_title',
   read_more_subtitle: 'read_more_subtitle',
   read_more_link: 'read_more_link',
+  press: 'press',
   email_title: 'email_title',
   email_subtitle: 'email_subtitle',
   email_input_label: 'email_input_label',
@@ -84,6 +85,8 @@ const en = {
   read_more_title: 'Read more',
   read_more_subtitle: 'Read our case guide and FAQ',
   read_more_link: 'here',
+
+  press: 'Press',
 
   email_title: 'Stay Informed',
   email_subtitle: 'We will keep you up to date with the latest on this case.',

@@ -156,6 +156,39 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="content">
+          <h2 className="content__section-title">
+            {__(m.press)}
+          </h2>
+          <div>
+            <p>
+              <a className="link" href="https://cei.org/blog/lbry-cryptocurrency-prosecution-shows-secs-misplaced-priorities/">
+                LBRY Cryptocurrency Prosecution Shows SEC’s Misplaced Priorities
+              </a>
+            </p>
+            <p>
+              <a className="link" href="https://cointelegraph.com/news/mati-greenspan-warns-sec-s-latest-action-could-threaten-future-of-all-cryptocurrencies">
+                Mati Greenspan warns SEC’s latest action could threaten future of all cryptocurrencies
+              </a>
+            </p>
+            <p>
+              <a className="link" href="https://reclaimthenet.org/lbry-petition-signatures-support/">
+                Crypto communities rally around LBRY after SEC complaint is seen as an attack on alt-tech
+              </a>
+            </p>
+            <p>
+              <a className="link" href="https://www.marketwatch.com/story/blockchain-firm-lbry-tries-to-rally-sector-against-sec-critics-allege-a-cryptocurrency-suppression-program-11617807779">
+                Blockchain firm LBRY tries to rally sector against SEC; critics allege a ‘cryptocurrency suppression program’
+              </a>
+            </p>
+            <p>
+              <a className="link" href="https://cryptonews.com/news/crypto-community-asks-who-s-next-as-sec-hits-decentralized-l-9726.htm">
+                Crypto Community Asks Who's Next As SEC Hits Decentralized LBRY
+              </a>
+            </p>
+          </div>
+        </div>
+
         <Email i18n={__} />
 
         <div className="content">
