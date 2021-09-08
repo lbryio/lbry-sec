@@ -112,7 +112,7 @@ En este momento, no esperamos que ninguno de estos programas cambie. Algunos exc
 
 ### ¿Dónde puedo ver la denuncia completa?
 
-La denuncia completa se puede ver en [odysee.com/secvslbrycomplaint](https://odysee.com/secvslbrycomplaint)
+La denuncia completa se puede ver en [odysee.com/secvslbrycomplaint:3](https://odysee.com/secvslbrycomplaint:3)
 
 ### ¿Cómo puedo programar una entrevista o solicitar un comentario?
 

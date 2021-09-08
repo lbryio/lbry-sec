@@ -3,7 +3,7 @@
 ## Summary
 
 The Securities and Exchange Commission has filed a complaint against LBRY Inc alleging that all
-distributions of LBRY Credits by LBRY Inc are unregistered securities offerings. This claim is a 
+distributions of LBRY Credits by LBRY Inc are unregistered securities offerings. This claim is a
 tremendous threat to the entire cryptocurrency industry.
 
 The LBRY network is decentralized and not at risk. For users of the LBRY protocol and apps, your
@@ -27,8 +27,8 @@ download [LBRY Desktop](https://lbry.com/get).
 ### Is the LBRY network in danger?
 
 The LBRY network is robust and decentralized, and far harder to disrupt than LBRY Inc. Hundreds of
-people across six continents contributed to LBRY last year (c’mon Antarctica!). Most of them don't 
-work at LBRY Inc, and we don't even know who many of them are. Even if LBRY Inc is shut down by the 
+people across six continents contributed to LBRY last year (c’mon Antarctica!). Most of them don't
+work at LBRY Inc, and we don't even know who many of them are. Even if LBRY Inc is shut down by the
 SEC as a result of this lawsuit, the LBRY network will continue to function and grow through the
 effort of the distributed LBRY community.
 
@@ -64,7 +64,7 @@ at [lbry.com/credit-reports](https://lbry.com/credit-reports).
 
 ### What is a security?
 
-A security is a tradable financial asset. Securities come in two types: equity 
+A security is a tradable financial asset. Securities come in two types: equity
 (shares of a company) and debt (that must be paid back), though some securities are a mix of the two.
 
 Securities are often contrasted with commodities, which are things like corn or nails. They are bought
@@ -72,12 +72,12 @@ to be used (e.g. to be eaten, to build a house with), not just for speculation.
 
 ### Why does LBRY think the SEC is wrong?
 
-We do not believe that the LBRY Credit is a security subject to SEC regulation. 
-The SEC claims that Credits have no use other than speculation, which contradicts the facts 
-and history of experience on LBRY. 
+We do not believe that the LBRY Credit is a security subject to SEC regulation.
+The SEC claims that Credits have no use other than speculation, which contradicts the facts
+and history of experience on LBRY.
 
-The LBRY Credit serves an integral function in our network. It allows individuals to create an 
-identity, tip creators, and publish, purchase, and boost content in a decentralized way. Millions of 
+The LBRY Credit serves an integral function in our network. It allows individuals to create an
+identity, tip creators, and publish, purchase, and boost content in a decentralized way. Millions of
 people have used it this way, and many were using it well before we sold any tokens to anyone.
 The SEC is completely ignoring this.
 
@@ -99,7 +99,7 @@ LBRY Inc has been under investigation for three years, since May of 2018.
 
 The SEC repeatedly requested documents from LBRY Inc, at times doing so in overbearing and costly
 ways that seemed punitive. If it’s true that LBRY Inc violated the law in
-the ways the SEC alleges, all of the relevant facts were clearly known to the SEC by the fall of 2018. 
+the ways the SEC alleges, all of the relevant facts were clearly known to the SEC by the fall of 2018.
 We’re glad to finally be getting through this painful process and to be allowed to
 express our positions to the public and in court.
 
@@ -157,7 +157,7 @@ on rigid and overly strict enforcement of their interpretation of the rules, tha
 constructive solutions that promote innovation and business within a reasonable regulatory
 framework.
 
-Consider an apathetic enforcer whose job review is simply “how many enforcements did you produce”. 
+Consider an apathetic enforcer whose job review is simply “how many enforcements did you produce”.
 Are they more incentivized to go after what is at-hand, or what is actually wrong?
 
 ### Will LBRY Credit distribution, rewards program, or anything else change as a result of this case?
@@ -168,7 +168,7 @@ case is resolved. Please see our FAQ for a [full list of available exchanges](ht
 
 ### Where can I view the full complaint?
 
-The full complaint can be viewed at [odysee.com/secvslbrycomplaint](https://odysee.com/secvslbrycomplaint)
+The full complaint can be viewed at [odysee.com/secvslbrycomplaint:3](https://odysee.com/secvslbrycomplaint:3)
 
 ### How can I schedule an interview or request a quote?
 
